@@ -23,6 +23,9 @@ body {
 body.fh5co-overflow {
   overflow-x: auto;
 }
+modal {
+  z-index: 1000;
+}
 
 a {
   color: #8dc63f;
@@ -571,6 +574,9 @@ body {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+a.fh5co-project-item {
+  cursor: pointer;
 }
 #fh5co-projects .fh5co-project-item img {
   z-index: 8;
