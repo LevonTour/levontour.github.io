@@ -52,7 +52,25 @@ var alexandrapol={
     description3: "Guests can dine in the property’s restaurant, or eat out in the cafes and restaurants nearby. There is also a bar on site.",
     photos: ['images/alexandrapol1.jpg','images/alexandrapol2.jpg','images/alexandrapol3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol];
+var kechi={
+    name: 'Kechi Resort',
+    mainPhoto: 'images/kechi.jpg',
+    address: "Armenia, 0009, Tsakhkadzor, Khachatur Kechareci Street 4",
+    description1: 'Situated in the heart of Tsakhadzor, the Kechi Resort is conveniently located just 800 metres from the ski lift. This mountainside hotel offers ski storage space, rooms with great views and free Wi-Fi in public areas.', 
+    description2: "Satellite TV, a seating area and a balcony with mountain views are offered in the Kechi’s simply decorated rooms. An electric kettle and kitchenware are also included.",
+    description3: "The Kechi Tsakhadzor is the perfect base for outdoor activities such as skiing and horse riding. Guests are also welcome to enjoy the hotel’s on-site facilities, which include table tennis, darts and a children’s playground.",
+    photos: ['images/kechi1.jpg','images/kechi2.jpg','images/kechi3.jpg']
+}
+var elegant={
+    name: 'Elegant Hotel & Resort',
+    mainPhoto: 'images/elegant.jpg',
+    address: "Armenia, 2310, Tsakhkadzor, Tandzaghbyur street 11",
+    description1: 'Situated in the heart of Tsakhadzor, the Kechi Resort is conveniently located just 800 metres from the ski lift. This mountainside hotel offers ski storage space, rooms with great views and free Wi-Fi in public areas.', 
+    description2: "Satellite TV, a seating area and a balcony with mountain views are offered in the Kechi’s simply decorated rooms. An electric kettle and kitchenware are also included.",
+    description3: "The Kechi Tsakhadzor is the perfect base for outdoor activities such as skiing and horse riding. Guests are also welcome to enjoy the hotel’s on-site facilities, which include table tennis, darts and a children’s playground.",
+    photos: ['images/elegant1.jpg','images/elegant2.jpg','images/elegant3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant];
 
 var row=$(".hotels")[0];
 
