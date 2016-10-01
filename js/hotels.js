@@ -70,7 +70,16 @@ var elegant={
     description3: "The restaurant on site serves gourmet-style dishes.",
     photos: ['images/elegant1.jpg','images/elegant2.jpg','images/elegant3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant];
+var alpina={
+    name: 'Alpina Hotel',
+    mainPhoto: 'images/alpina.jpg',
+    address: "Armenia, 2310, Tsaghkadzor, Yeghishe Charents Street (Turn 7)",
+    description1: 'The property features cottages and rooms offering a TV with satellite channels. The bathroom comes with a hairdryer and free toiletries.', 
+    description2: "Guests can order a meal in the on-site restaurant serving dishes of national and European cuisine. You can also enjoy a glass of your favourite drink at the bar. Barbecue facilities are provided.",
+    description3: "At Alpina Hotel you will find a 24-hour front desk and a garden. Other facilities offered at the property include a shared lounge, a tour desk, a spa and wellness centre and a children's playground.",
+    photos: ['images/alpina1.jpg','images/alpina2.jpg','images/alpina3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina];
 
 var row=$(".hotels")[0];
 
