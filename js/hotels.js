@@ -65,9 +65,9 @@ var elegant={
     name: 'Elegant Hotel & Resort',
     mainPhoto: 'images/elegant.jpg',
     address: "Armenia, 2310, Tsakhkadzor, Tandzaghbyur street 11",
-    description1: 'Situated in the heart of Tsakhadzor, the Kechi Resort is conveniently located just 800 metres from the ski lift. This mountainside hotel offers ski storage space, rooms with great views and free Wi-Fi in public areas.', 
-    description2: "Satellite TV, a seating area and a balcony with mountain views are offered in the Kechi’s simply decorated rooms. An electric kettle and kitchenware are also included.",
-    description3: "The Kechi Tsakhadzor is the perfect base for outdoor activities such as skiing and horse riding. Guests are also welcome to enjoy the hotel’s on-site facilities, which include table tennis, darts and a children’s playground.",
+    description1: 'Featuring a panoramic view of the Tsaghkadzor Valley, Elegant Hotel & Resort offers a restaurant, a bar and a terrace. After a long day of hiking or skiing, guests can relax in the indoor pool and the sauna.', 
+    description2: "With views over the mountains, each room here will provide you with air conditioning, a balcony and a minibar. A satellite TV with satellite channels and free WiFi access are available.",
+    description3: "The restaurant on site serves gourmet-style dishes.",
     photos: ['images/elegant1.jpg','images/elegant2.jpg','images/elegant3.jpg']
 }
 var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant];
