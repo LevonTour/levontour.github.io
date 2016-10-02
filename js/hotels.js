@@ -79,7 +79,79 @@ var alpina={
     description3: "At Alpina Hotel you will find a 24-hour front desk and a garden. Other facilities offered at the property include a shared lounge, a tour desk, a spa and wellness centre and a children's playground.",
     photos: ['images/alpina1.jpg','images/alpina2.jpg','images/alpina3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina];
+var bwaghveran={
+    name: 'Aghveran Hotel',
+    mainPhoto: 'images/bwaghveran.jpg',
+    address: "Armenia, 2503, Kotayk Marz, Arzakan village Antarain St., 1 Building",
+    description1: 'The high-class "BEST WESTERN Aghveran" hotel is located 40 km far away from Yerevan, on the left bank of Dalar river occupying 6 hectare forest territory beneath the Tsakhquniats mountain chain. The rich nature and fresh air a year round will guarantee a fully enjoyable rest here.', 
+    description2: '"BEST WESTERN Aghveran" Hotel is a modern rest-complex.',
+    description3: "The main building - with rest and entertainment zones as well as seven inter-connected buildings, includes 56 comfortable guestrooms: SNGL, DBL, Deluxe, Luxe, Family, Duplex. All rooms have open terraces facing beautiful landscapes.",
+    photos: ['images/bwaghveran1.jpg','images/bwaghveran2.jpg','images/bwaghveran3.jpg']
+}
+var arthurs={
+    name: 'Arthurs Aghveran Resort',
+    mainPhoto: 'images/arthurs.jpg',
+    address: "Armenia, 2503, Kotayk Marz, Arzakan village (at Aghveran recreation area)",
+    description1: '"Arthurs Aghveran Resort" - A variety of meals representing European kitchen and traditional Armenian cuisine are offered to our guests. Our Chief cook will meet the demands of most demanding customers. High quality service, pleasant atmosphere and refined music will take you away from routine.', 
+    description2: 'A large and comfortable tennis court is offerred for tennis amateurs, which may serve as a football court, too.',
+    description3: "The Large Conference Hall is envisaged for 120-200 prs.It encompasses conference facilities, an LCD projector and microphones. It’s ideal for corporate events.",
+    photos: ['images/arthurs1.jpg','images/arthurs2.jpg','images/arthurs3.jpg']
+}
+var mimino={
+    name: 'Mimino Hotel & Restourant',
+    mainPhoto: 'images/mimino.jpg',
+    address: "Armenia, Tavush Marz, Dilijan Gorku St., 52 Building",
+    description1: 'Offering a restaurant, Mimino Guesthouse is located in Dilijan. Free Wi-Fi access is available. Each room here will provide you with a TV, air conditioning and satellite channels.', 
+    description2: 'There is also a refrigerator. The private bathroom also comes with a hairdryer and free toiletries. You can enjoy mountain view and city view from the room. Extras include bed linen.',
+    description3: "At Mimino Guesthouse you will find a communal sauna, a garden and barbecue facilities. Other facilities offered at the property include grocery deliveries, a children's playground and an ironing service.",
+    photos: ['images/mimino1.jpg','images/mimino2.jpg','images/mimino3.jpg']
+}
+var dresort={
+    name: 'Hotel Dilijan Resort',
+    mainPhoto: 'images/dresort.jpg',
+    address: "Armenia, Tavush Marz, Dilijan Getapnya St., 66 Building",
+    description1: 'Panoramic views of the Dilijan National Park, a spa with indoor pool, and an Armenian restaurant with garden terrace are offered by this 4-star hotel in the health resort of Dilijan. Free WiFi is available.', 
+    description2: 'Hotel Dilijan Resort has spacious, classic-style rooms and suites with satellite TV, minibar, and elegant wooden furniture. All include a stylish bathroom with toiletry set.',
+    description3: "The Dilijan Resort’s spacious spa area features a sauna, gym, and massage lounge. Guests can book beauty treatments here. Tennis and billiards are also possible.",
+    photos: ['images/dresort1.jpg','images/dresort2.jpg','images/dresort3.jpg']
+}
+var odzun={
+    name: 'Odzun Hotel',
+    mainPhoto: 'images/odzun.jpg',
+    address: "Armenia, 1731, Lori Marz, Odzun village",
+    description1: 'Odzun Hotel is a 15-minute drive from the town of Alaverdi. Guests can enjoy eco-farming and an outdoor swimming pool. Free Wi-Fi and free private parking are provided.', 
+    description2: 'All the bright rooms include a TV, a fridge and a balcony with a mountain view. Free toiletries, slippers and a hairdryer are provided in the bathroom.',
+    description3: "The on-site restaurant features various Armenian dishes. A home-style breakfast is served every morning, and it is possible to enjoy a snack near the pool. Barbecue facilities are also available on site.",
+    photos: ['images/odzun1.jpg','images/odzun2.jpg','images/odzun3.jpg']
+}
+var alpiakan={
+    name: 'Alpine Violet',
+    mainPhoto: 'images/alpiakan.jpg',
+    address: "Armenia, 2503, Kotayk Marz, Arzakan village",
+    description1: 'Alpine Violet rset house is located in the Kotayk region just 48 km from Yerevan, offer guests a highly pleasing vacation experience in a wonderful natural setting.', 
+    description2: 'All the bright rooms include a TV, a fridge and a balcony with a mountain view. Free toiletries, slippers and a hairdryer are provided in the bathroom.',
+    description3: "The on-site restaurant features various Armenian dishes. A home-style breakfast is served every morning, and it is possible to enjoy a snack near the pool. Barbecue facilities are also available on site.",
+    photos: ['images/alpiakan1.jpg','images/alpiakan2.jpg','images/alpiakan3.jpg']
+}
+var cavalier={
+    name: 'MGE Cavalier Cottage Resort Complex',
+    mainPhoto: 'images/cavalier.jpg',
+    address: "Armenia, 2503, Kotayk Marz, Arzakan village",
+    description1: 'Located in the Aghveran countryside, this resort complex features spacious green gardens, a swimming pool and sauna, and beautiful views of the surrounding mountains. All accommodation comes with a fully equipped kitchenette.', 
+    description2: 'Fully furnished, all cottages at the MGE Cavalier Cottage Resort Complex feature a bedroom, a separate living room with flat-screen TV and DVD player, and a balcony.',
+    description3: "In sunny weather, barbecue facilities can be enjoyed on the outdoor terrace. The restaurant serves a selection of Armenian cuisine.",
+    photos: ['images/cavalier1.jpg','images/cavalier2.jpg','images/cavalier3.jpg']
+}
+var parkresort={
+    name: 'Park Resort Aghveran',
+    mainPhoto: 'images/parkresort.jpg',
+    address: "Armenia, 2503, Kotayk Marz, Arzakan villag",
+    description1: 'Featuring free Wi-Fi and active sports facilities, this hotel is located 500 metres from the ski slopes of Aghveran Resort. It offers a 24-hour reception and rooms with a kitchenette.', 
+    description2: 'Each room at Park Resort Aghveran is decorated in a classical-style with wooden furnishings. Bathrobes and slippers are provided in the bathrooms.',
+    description3: "Park Aghveran’s restaurant serves local cuisine, which can be enjoyed on the terrace. Guests are also welcome to use a kitchenette in their rooms, which comes with a microwave.",
+    photos: ['images/parkresort1.jpg','images/parkresort2.jpg','images/parkresort3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort];
 
 var row=$(".hotels")[0];
 
