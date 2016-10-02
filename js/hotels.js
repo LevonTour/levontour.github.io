@@ -145,13 +145,22 @@ var cavalier={
 var parkresort={
     name: 'Park Resort Aghveran',
     mainPhoto: 'images/parkresort.jpg',
-    address: "Armenia, 2503, Kotayk Marz, Arzakan villag",
+    address: "Armenia, 2503, Kotayk Marz, Arzakan village Antarain St. 1st Blind Alley",
     description1: 'Featuring free Wi-Fi and active sports facilities, this hotel is located 500 metres from the ski slopes of Aghveran Resort. It offers a 24-hour reception and rooms with a kitchenette.', 
     description2: 'Each room at Park Resort Aghveran is decorated in a classical-style with wooden furnishings. Bathrobes and slippers are provided in the bathrooms.',
     description3: "Park Aghveran’s restaurant serves local cuisine, which can be enjoyed on the terrace. Guests are also welcome to use a kitchenette in their rooms, which comes with a microwave.",
     photos: ['images/parkresort1.jpg','images/parkresort2.jpg','images/parkresort3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort];
+var crystal={
+    name: 'Crystal Resort Aghveran',
+    mainPhoto: 'images/crystal.jpg',
+    address: "Armenia, 2503, Kotayk Marz, Arzakan village Antarain St., 41 Building",
+    description1: 'Crystal Resort is located 45km from Yerevan.', 
+    description2: 'It is surrounded by Tsaghkunyac Mountains and breath-taking views of forests of Aghveran. The complex suggests to spend vacation out on the peaceful nature, enjoying fresh air and cold water. ',
+    description3: "One can see gorgeous views of Aghveran from each room. Every visitor will be satisfied by the convenient conditions and the quality.",
+    photos: ['images/crystal1.jpg','images/crystal2.jpg','images/crystal3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal];
 
 var row=$(".hotels")[0];
 
