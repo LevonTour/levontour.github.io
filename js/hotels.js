@@ -163,13 +163,58 @@ var crystal={
 var arzniresort={
     name: 'Arzni Health Resort',
     mainPhoto: 'images/arzniresort.jpg',
-    address: "Armenia, 2212, Kotayk Marz, Arzni village ",
+    address: "Armenia, 2212, Kotayk Marz, Arzni village",
     description1: 'Arzni Health Resort is a whole complex for treatment and rest. It is situated at a height of 1250 meters above sea level on the 23th km to the North of Yerevan, on the slope of the gorge covered with forest and shrubbery, where clear and ringing purl of Hrazdan river can be heard.', 
     description2: 'The climate in Arzni is continental, the winter is soft (the average temperature in January is -5C), the summer is pleasantly cool (the average temperature in July is +22C), the autumn is warm and long-lasting. The sunny days of the year make 2236 hours. By the amount of clear days Arzni exceeds all the health resorts of the Caucasus.',
-    description3: "The atmospheric pressure is stable, without sharp changes and is equal to 657 mm of the mercury column. ",
+    description3: "The atmospheric pressure is stable, without sharp changes and is equal to 657 mm of the mercury column.",
     photos: ['images/arzniresort1.png','images/arzniresort2.png','images/arzniresort3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort];
+var yeghevnut={
+    name: 'Yeghevnut Hotel',
+    mainPhoto: 'images/yeghevnut.jpg',
+    address: "Armenia, 3202, Syunik Marz, Goris Yerevanyan Highway, 7 Building",
+    description1: 'Offering a 24-hour reception and rooms with flat-screen TVs, this hotel is situated in the east of Goris. Armenian specialities are served in the restaurant, and free Wi-Fi is available in public areas.', 
+    description2: 'The simple rooms at Egevnut Hotel feature a work desk, and a private bathroom with toiletries and slippers. Free tea and coffee is provided throughout the day.',
+    description3: "The Egevnut reception can organise tours of the area, as well as trips to the world’s longest cable car, 17 km from the hotel.",
+    photos: ['images/yeghevnut1.jpg','images/yeghevnut2.jpg','images/yeghevnut3.jpg']
+}
+var zanger={
+    name: 'Zanger Hotel',
+    mainPhoto: 'images/zanger.jpg',
+    address: "Armenia, Syunik Marz, Goris Bakuntsi St., 13 Building",
+    description1: 'Located in Goris, Zanger Hotel offers a garden and free WiFi. Free parking is available on site.', 
+    description2: 'The rooms are decorated in the old Armenian style and feature a dining table. The bathrooms are either private, or shared.',
+    description3: "Guests can dine in the property’s restaurant, serving Armenian and Georgian cuisine, or use on-site barbecue facilities. There is also a bar on site. Room service, packed lunches and breakfasts in the room are available upon request.",
+    photos: ['images/zanger1.jpg','images/zanger2.jpg','images/zanger3.jpg']
+}
+var goris={
+    name: 'Goris Guest House',
+    mainPhoto: 'images/goris.jpg',
+    address: "Armenia, Syunik Marz, Khorenatsi St. 53 Building",
+    description1: '"Goris" hotel is situated in the centre of the city', 
+    description2: 'There is a bar-restaurant inside the hotel',
+    description3: "The hotel has 20 comfortable rooms in economy class. The rooms are equipped with hot and cold water throughout, essential supplies, satellite TV, local phone. Visitors can enjoy the restaurant, mini-bar, laundry, the wide parking, taxi service",
+    photos: ['images/goris1.jpg','images/goris2.jpg','images/goris3.jpg']
+}
+var magnit={
+    name: 'Magnit',
+    mainPhoto: 'images/magnit.jpg',
+    address: "Armenia, Tavush Marz, Dilijan Kalinini St., 86 House",
+    description1: 'Just a 30-minute drive from the scenic Lake Parzlich, this 4-storey hotel in Dilijan features a games room, several kitchens, and a terrace, where guests can enjoy barbecue facilities.', 
+    description2: 'Both simple and classic-style rooms with private and shared bathrooms are available at the Magnit. All feature a satellite TV and many have a spacious seating area with traditional Armenian-style furnishings.',
+    description3: "Fully equipped kitchens are available on the 2nd and 3rd floors, where guests can cook their own meals. A rich breakfast, and traditional Armenian and Georgian cookery are served in the 1st floor restaurant.",
+    photos: ['images/magnit1.jpg','images/magnit2.jpg','images/magnit3.jpg']
+}
+var diligence={
+    name: 'Diligence Hotel',
+    mainPhoto: 'images/diligence.jpg',
+    address: "Armenia, Tavush Marz, Dilijan Sayat-Novai St., 69a Building",
+    description1: 'In a garden 20 metres from the Agstev River in the spa town of Dilijan, Diligence Hotel offers free WiFi in all areas. Located 50 metres from the forest and 1.6 km from the town centre, it offers table tennis and a 24-hour reception.', 
+    description2: 'The simple rooms provide a TV, fridge and private bathroom with toiletries.',
+    description3: "The restaurant serves a buffet breakfast and Armenian cuisine for lunch and dinner. There is a bar and a terrace with barbecue. Room service is available.",
+    photos: ['images/diligence1.jpg','images/diligence2.jpg','images/diligence3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence];
 
 var row=$(".hotels")[0];
 
