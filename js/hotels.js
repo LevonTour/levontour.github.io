@@ -167,7 +167,7 @@ var arzniresort={
     description1: 'Arzni Health Resort is a whole complex for treatment and rest. It is situated at a height of 1250 meters above sea level on the 23th km to the North of Yerevan, on the slope of the gorge covered with forest and shrubbery, where clear and ringing purl of Hrazdan river can be heard.', 
     description2: 'The climate in Arzni is continental, the winter is soft (the average temperature in January is -5C), the summer is pleasantly cool (the average temperature in July is +22C), the autumn is warm and long-lasting. The sunny days of the year make 2236 hours. By the amount of clear days Arzni exceeds all the health resorts of the Caucasus.',
     description3: "The atmospheric pressure is stable, without sharp changes and is equal to 657 mm of the mercury column. ",
-    photos: ['images/arzniresort1.jpg','images/arzniresort2.jpg','images/arzniresort3.jpg']
+    photos: ['images/arzniresort1.png','images/arzniresort2.png','images/arzniresort3.jpg']
 }
 var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort];
 
