@@ -241,7 +241,17 @@ var bwparadise={
     description3: "The on-site restaurant offers various Armenian and European dishes. A buffet breakfast is served every morning, and guests can have a drink in the bar.",
     photos: ['images/bwparadise1.jpg','images/bwparadise2.jpg','images/bwparadise3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise];
+var impuls={
+    name: 'Impuls',
+    mainPhoto: 'images/impuls.jpg',
+    address: "Armenia, Tavush Marz, Dilijan Parz Lich St., 14 Building",
+    description1: '"Impuls" Dilijan health improving complex was created in 1976. It was aimed to provides guests with full rest and prophylaxis.', 
+    description2: 'Boarding house occupies territory of 2 hectares. Construction area is 5674,4 sq. m. The sanatorium offers 46 rooms - 7 types of planning, including 2 apartments. All the rooms are furnished, equipped with all the necessary facilities. ',
+    description3: 'In the territory there is a paystation, providing worldwide communication. Cellular communication is provided by "ArmenTel" and "VivaCell".',
+    videoUrl: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2Ok2mo3ZXe0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/impuls1.jpg','images/impuls2.jpg','images/impuls3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls];
 
 var row=$(".hotels")[0];
 
@@ -268,6 +278,7 @@ hotels.forEach(function(item, index) {
                 '<p>'+item.description1+'</p>'+
                 '<p>'+item.description2+'</p>'+
                 '<p>'+item.description3+'</p>'+
+                (item.videoUrl?item.videoUrl:'')+
                 '<a href="'+item.photos[0]+'" class="image-popup">'+
                     '<img src="'+item.photos[0]+'" width="100" alt="Image">'+
                 '</a>'+
