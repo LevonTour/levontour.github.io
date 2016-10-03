@@ -246,12 +246,22 @@ var impuls={
     mainPhoto: 'images/impuls.jpg',
     address: "Armenia, Tavush Marz, Dilijan Parz Lich St., 14 Building",
     description1: '"Impuls" Dilijan health improving complex was created in 1976. It was aimed to provides guests with full rest and prophylaxis.', 
-    description2: 'Boarding house occupies territory of 2 hectares. Construction area is 5674,4 sq. m. The sanatorium offers 46 rooms - 7 types of planning, including 2 apartments. All the rooms are furnished, equipped with all the necessary facilities. ',
+    description2: 'Boarding house occupies territory of 2 hectares. Construction area is 5674,4 sq. m. The sanatorium offers 46 rooms - 7 types of planning, including 2 apartments. All the rooms are furnished, equipped with all the necessary facilities.',
     description3: 'In the territory there is a paystation, providing worldwide communication. Cellular communication is provided by "ArmenTel" and "VivaCell".',
-    videoUrl: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2Ok2mo3ZXe0" frameborder="0" allowfullscreen></iframe>',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/2Ok2mo3ZXe0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/impuls1.jpg','images/impuls2.jpg','images/impuls3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls];
+var dghyak={
+    name: 'Dghyak Pansion',
+    mainPhoto: 'images/dghyak.jpg',
+    address: "Armenia, Tavush Marz, Dilijan Sayat-Novai St., 50 Building",
+    description1: 'Free Wi-Fi and an indoor pool are offered at this hotel, located next to Haghartsin Monastery. The hotel features brightly decorated rooms with a flat-screen TV and a seating area with sofa.', 
+    description2: 'Rooms at Dghyak Pansion come with individual décor. Each one features satellite TV, a minibar, and a private bathroom with a hairdryer and free toiletries. All rooms are also air conditioned.',
+    description3: 'Guests can dine on regional Armenian cuisine in the hotel’s canteen and enjoy drinks from the hotel’s bar. Barbecue facilities are also available for guests to use.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/dXJe4ABXaGA" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/dghyak1.jpg','images/dghyak2.jpg','images/dghyak3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak];
 
 var row=$(".hotels")[0];
 
@@ -279,7 +289,7 @@ hotels.forEach(function(item, index) {
                 '<p>'+item.description2+'</p>'+
                 '<p>'+item.description3+'</p>'+
                 (item.videoUrl?item.videoUrl:'')+
-                '<a href="'+item.photos[0]+'" class="image-popup">'+
+                '<div class="col-md-12"><a href="'+item.photos[0]+'" class="image-popup">'+
                     '<img src="'+item.photos[0]+'" width="100" alt="Image">'+
                 '</a>'+
                 '<a href="'+item.photos[1]+'" class="image-popup">'+
@@ -287,7 +297,7 @@ hotels.forEach(function(item, index) {
                 '</a>'+
                 '<a href="'+item.photos[2]+'" class="image-popup">'+
                     '<img src="'+item.photos[2]+'" width="100" alt="Image">'+
-                '</a>'+
+                '</a></div>'+
                 '<p>FOR BOOKING PLEASE CALL...</p>'+
                 '<p>'+
                     '<a href="tel:+37441506041">+374 41 50 60 41</a>'+
