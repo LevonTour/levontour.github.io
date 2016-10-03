@@ -214,7 +214,34 @@ var diligence={
     description3: "The restaurant serves a buffet breakfast and Armenian cuisine for lunch and dinner. There is a bar and a terrace with barbecue. Room service is available.",
     photos: ['images/diligence1.jpg','images/diligence2.jpg','images/diligence3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence];
+var haghartsin={
+    name: 'Haghrartsin Hotel',
+    mainPhoto: 'images/haghartsin.jpg',
+    address: "Armenia, Tavush region, Dilijan, Kamo st. 121.",
+    description1: 'You will taste a variety of Armenian and European dishes. Design, location and facilities of this complex will let You enjoy Your time.', 
+    description2: 'The complex is located in a wonderful place of Dilijan, among picturesque mountains covered with colorful woods.',
+    description3: "The hotel offers 31 comfortable and modernly furnished double/twin, triple and family rooms with all necessary facilities and conditions and also 10 cottages for 4 or 6 person.",
+    photos: ['images/haghartsin1.jpg','images/haghartsin2.jpg','images/haghartsin3.jpg']
+}
+var gosh={
+    name: 'Mkhitar Gosh Guesthouse',
+    mainPhoto: 'images/gosh.jpg',
+    address: "Armenia, Tavush region, Gosh, Mkhitar Gosh Str. 76",
+    description1: 'Bed and Breakfast was awarded 3 category by State Authority. Mkhitar Gosh Guest house is located in village Gosh of Tavoush Region, nearby Goshavanq Monastery built in 12-13 centuries. The distance from Dilijan is 22 km.', 
+    description2: '3-stored Guest house is functioning from 2010. It offers Standard Double, Deluxe and Family rooms. Each room has TV set with local and satellite channels, coffee table, wardrobe, and other necessary facilities. In the restaurant one can taste the variety of dishes of both traditional Armenian and other cuisine.',
+    description3: "Mkhitar Gosh will mostly interest active life lovers, as here can organize excursions to the lake Gosh that is 2.5 km far from the village.",
+    photos: ['images/gosh1.jpg','images/gosh2.jpg','images/gosh3.jpg']
+}
+var dilhill={
+    name: 'Mkhitar Gosh Guesthouse',
+    mainPhoto: 'images/dilhill.jpg',
+    address: "Armenia, Tavush Marz, Dilijan Kalinini St. 1st Lane, 90 House",
+    description1: 'A 30-minute drive to Lake Parzlich, famous for its clear water, and the historic Goshavank Monastery, Dil Hill is located in Dilijan. It offers simple rooms with free Wi-Fi.', 
+    description2: 'The comfortable rooms come with satellite TV and a fridge. The private bathrooms offer a shower, hairdryer and free toiletries. Each room features a panoramic view of Dilijan.',
+    description3: "Dil Hill has an open-air café and canteen serving local cuisine. The guest house features a garden with BBQ facilities. It offers table tennis and billiards in summer.",
+    photos: ['images/dilhill1.jpg','images/dilhill2.jpg','images/dilhill3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, dilhill];
 
 var row=$(".hotels")[0];
 
