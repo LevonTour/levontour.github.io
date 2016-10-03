@@ -232,15 +232,6 @@ var gosh={
     description3: "Mkhitar Gosh will mostly interest active life lovers, as here can organize excursions to the lake Gosh that is 2.5 km far from the village.",
     photos: ['images/gosh1.jpg','images/gosh2.jpg','images/gosh3.jpg']
 }
-var dilhill={
-    name: 'Dil Hill',
-    mainPhoto: 'images/dilhill.jpg',
-    address: "Armenia, Tavush Marz, Dilijan Kalinini St. 1st Lane, 90 House",
-    description1: 'A 30-minute drive to Lake Parzlich, famous for its clear water, and the historic Goshavank Monastery, Dil Hill is located in Dilijan. It offers simple rooms with free Wi-Fi.', 
-    description2: 'The comfortable rooms come with satellite TV and a fridge. The private bathrooms offer a shower, hairdryer and free toiletries. Each room features a panoramic view of Dilijan.',
-    description3: "Dil Hill has an open-air café and canteen serving local cuisine. The guest house features a garden with BBQ facilities. It offers table tennis and billiards in summer.",
-    photos: ['images/dilhill1.jpg','images/dilhill2.jpg','images/dilhill3.jpg']
-}
 var bwparadise={
     name: 'Best Western Paradise Hotel Dilijan',
     mainPhoto: 'images/bwparadise.jpg',
@@ -250,7 +241,7 @@ var bwparadise={
     description3: "The on-site restaurant offers various Armenian and European dishes. A buffet breakfast is served every morning, and guests can have a drink in the bar.",
     photos: ['images/bwparadise1.jpg','images/bwparadise2.jpg','images/bwparadise3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, dilhill, bwparadise];
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise];
 
 var row=$(".hotels")[0];
 
