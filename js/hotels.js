@@ -233,7 +233,7 @@ var gosh={
     photos: ['images/gosh1.jpg','images/gosh2.jpg','images/gosh3.jpg']
 }
 var dilhill={
-    name: 'Mkhitar Gosh Guesthouse',
+    name: 'Dil Hill',
     mainPhoto: 'images/dilhill.jpg',
     address: "Armenia, Tavush Marz, Dilijan Kalinini St. 1st Lane, 90 House",
     description1: 'A 30-minute drive to Lake Parzlich, famous for its clear water, and the historic Goshavank Monastery, Dil Hill is located in Dilijan. It offers simple rooms with free Wi-Fi.', 
@@ -241,7 +241,16 @@ var dilhill={
     description3: "Dil Hill has an open-air café and canteen serving local cuisine. The guest house features a garden with BBQ facilities. It offers table tennis and billiards in summer.",
     photos: ['images/dilhill1.jpg','images/dilhill2.jpg','images/dilhill3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, dilhill];
+var bwparadise={
+    name: 'Best Western Paradise Hotel Dilijan',
+    mainPhoto: 'images/bwparadise.jpg',
+    address: "Armenia, 3904, Tavush Marz, Dilijan Kamoi St., 156 Building",
+    description1: 'BEST WESTERN Paradise Hotel Dilijan is located in a picturesque area, within a 5-minute drive from M4 Highway, which connects Armenia and Georgia. Free Wi-Fi and free private parking are provided.', 
+    description2: 'All well-lit rooms come with a TV, a fridge and a balcony. Free toiletries are provided in a bathroom.',
+    description3: "The on-site restaurant offers various Armenian and European dishes. A buffet breakfast is served every morning, and guests can have a drink in the bar.",
+    photos: ['images/bwparadise1.jpg','images/bwparadise2.jpg','images/bwparadise3.jpg']
+}
+var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, dilhill, bwparadise];
 
 var row=$(".hotels")[0];
 
