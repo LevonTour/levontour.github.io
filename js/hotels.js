@@ -23,7 +23,8 @@ var multirest={
     description1: 'Multi Rest House" resort offers a long list of different and interesting services to the guests. Comfortably and modernly designed rooms and very nice cottages are at your disposal. Various services will help you to fill your days at the resort with unforgettable moments.', 
     description2: "The following facilities are available here: fitness center, internet cafe, indoor pool, cinema center, football, basketball, tennis, billiard, conference hall for 80 persons, bar and restaurant, etc.",
     description3: "Golden Lion Restaurant serves Armenian cuisine, as well as Mexican and European dishes. The fully stocked bar offers drinks and cocktails.",
-    photos: ['images/multirest1.jpg','images/multirest2.jpg','images/multirest3.jpg']
+    videoUrl: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Xm8AK0nH0jc" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/multirest1.jpg','images/multirest2.jpg','images/multirest3.jpg','images/multirest4.jpg','images/multirest5.jpg','images/multirest6.jpg','images/multirest7.jpg','images/multirest8.jpg']
 }
 var doubletree={
     name: 'Doubletree by Hilton Yerevan City Centre',
@@ -266,7 +267,12 @@ var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol,
 var row=$(".hotels")[0];
 
 hotels.forEach(function(item, index) {
-    
+    var image=item.photos.reduce(function(prev,curr) {
+        return prev + '<a href="'+curr+'" class="image-popup">'+
+                    '<img src="'+curr+'" width="100" alt="Image">'+
+                '</a>'
+    },'');
+    console.log(image);
     row.innerHTML+='<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">'+
         '<a type="button" class="fh5co-project-item" data-toggle="modal" data-target="#modal-'+index+'">'+
             '<img src="'+item.mainPhoto+'" alt="Image" class="img-responsive main-img">'+
@@ -289,15 +295,7 @@ hotels.forEach(function(item, index) {
                 '<p>'+item.description2+'</p>'+
                 '<p>'+item.description3+'</p>'+
                 (item.videoUrl?item.videoUrl:'')+
-                '<div class="col-md-12"><a href="'+item.photos[0]+'" class="image-popup">'+
-                    '<img src="'+item.photos[0]+'" width="100" alt="Image">'+
-                '</a>'+
-                '<a href="'+item.photos[1]+'" class="image-popup">'+
-                    '<img src="'+item.photos[1]+'" width="100" alt="Image">'+
-                '</a>'+
-                '<a href="'+item.photos[2]+'" class="image-popup">'+
-                    '<img src="'+item.photos[2]+'" width="100" alt="Image">'+
-                '</a></div>'+
+                '<div class="col-md-12">' + image + '</div>'+
                 '<p>FOR BOOKING PLEASE CALL...</p>'+
                 '<p>'+
                     '<a href="tel:+37441506041">+374 41 50 60 41</a>'+
@@ -311,5 +309,4 @@ hotels.forEach(function(item, index) {
             '</div>'+
         '</div>'+
     '</div>';
-
 });
