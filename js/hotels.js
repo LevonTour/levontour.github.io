@@ -1,42 +1,83 @@
+var royaltulip={
+    name: 'Royal Tulip Grand Hotel Yerevan',
+    armname: 'Ռոյալ Թուլիփ Գրանդ Հոթել',
+    rusname: '',
+    mainPhoto: 'images/royaltulip.jpg',
+    address: "Armenia, 0001, Yerevan Abovyan St., 14 Building",
+    armdesc: 'Ռոյալ Թուլիփ Գռանդ Հոթել Երևան հյուրանոցը համարվում է Երեւանի առաջին հյուրանոցներից մեկը: Պատմական եւ մշակութային հարուստ ժառանգությունը յուրօրինակ փայլ է տալիս այս հյուրանոցին: Հիմնադրման օրվանից հյուրանոցը համարվում է այցելուների սիրելի վայրը: Ռոյալ Թյուլիփը շքեղ և գեղեցիկ հյուրանոց է, որը գտնվում է հենց Երեւանի կենտրոնում: Հյուրանոցը նախագծել է հայտնի ճարտատապետ Բունիաթյանը 1926թ., վերակացառուցվել է Ռենկո իտալական շինարական ընկերության  կողմից և ամբողջովին վերանորոգվել 2009թ.: Այցելուների տրամադրության տակ են 104 նրբաճաշակ եւ էլեգանտ սենյակները՝ բոլոր հարմարություններով:',
+    description1: "This stately, Neoclassical hotel is a 7-minute walk from the bustling Republic Square, the nearest metro station and the landmark Yerevan Opera Theater.", 
+    description2: "Featuring free Wi-Fi, the modern, warmly decorated rooms include flat-screen TVs, minibars, and tea and coffeemakers. Suites add sitting areas, and upgraded suites provide separate living rooms. Some suites include balconies with city views.",
+    description3: "Amenities include a chic restaurant serving traditional Armenian and Italian dishes, plus a stylish bar and a terrace. There's also a wellness spa offering a hot tub, a hammam and a sauna.",
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/ZfGzTX2FHt8?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/royaltulip1.jpg','images/royaltulip2.jpg','images/royaltulip3.jpg','images/royaltulip4.jpg','images/royaltulip5.jpg','images/royaltulip6.jpg','images/royaltulip7.jpg','images/royaltulip8.jpg','images/royaltulip9.jpg','images/royaltulip10.jpg','images/royaltulip11.jpg','images/royaltulip12.jpg','images/royaltulip13.jpg']
+}
+var mariott={
+    name: 'Armenia Marriott Hotel Yerevan',
+    armname: 'Արմենի Մարիոթ Հյուրանոց',
+    rusname: '',
+    mainPhoto: 'images/mariott.jpg',
+    address: "Armenia, 0010, Yerevan Amiryan St., 1 Building",
+    armdesc: '«Արմենիա Մարիոթ» հյուրանոցը, որը նախկինում կոչվում էր «Արմենիա» հյուրանոց, գտնվում է Հանրապետության Հրապարակում` Երևանի կենտրոնում: Այն Երևանի ամենաբարձր վարկանիշ ունեցող հյուրանոցներից մեկն է: Պահպանելով Միջազգային Մարիոթին համապատասխան չափանիշները` հյուրանոցն ընդունում է ամենաքմահաճ այցելուներին` առաջարկելով ծառայությունների լայն ընտրանի, զվարճանքի մեծ հնարավորություն, ինչպես նաև բազում հատուկ առաջարկներ: Գտնվելով մայրաքաղաքի կենտրոնում` այն իր հյուրերին հնարավորություն է տալիս այցելել Երևանի տարբեր տեսարժան վայրեր: Հյուրանոցն ունի 115 հարմարավետ սենյակներ` ներառյալ սենյակներ չծխողների համար:',
+    description1: 'This modern luxury hotel is 3 km from the Yerevan Mall and 5 km from the Karen Demirchyan Complex.', 
+    description2: 'The contemporary rooms feature flat-screen, minibars and free Wi-Fi. Upgraded rooms add pull-out couches. Some offer breakfast and have kitchens, plus living and dining areas.',
+    description3: 'Amenities include an international restaurant, a bar/lounge and a fitness center, as well as 2 cafes. The hotel also has a business center and 8 meeting rooms. Massages are available, and parking is free.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/y3KJuBNveog?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/mariott1.jpg','images/mariott2.jpg','images/mariott3.jpg','images/mariott4.jpg','images/mariott5.jpg','images/mariott6.jpg','images/mariott7.jpg','images/mariott8.jpg','images/mariott9.jpg','images/mariott10.jpg','images/mariott11.jpg']
+}
 var aniPlaza={
     name: 'Ani Plaza Hotel',
+    armname: 'Անի Պլազա Հյուրանոց',
+    rusname: '',
     mainPhoto: 'images/aniplaza.jpg',
     address: "Armenia, 0001, Yerevan Sayat-Novai Ave., 19 Building",
+    armdesc: 'ՀՀ պետական լիազոր մարմնի կողմից Անի Պլազան ստացել է 4 աստղանի հյուրանոցի որակավորման կարգ: Հաճախորդներին ամենաբարձր մակարդակով սպասարկելու և լավագույնը մատուցելու «Անի» հյուրանոցի ավանդույթները ձևավորվել են տասնամյակներով: Հազարավոր զբոսաշրջիկներ Հայաստանի մայրաքաղաք Երևանը մտապահել են հենց «Անի» հյուրանոցի իրենց պատուհանի համայնապատկերով: Հյուրանոցի սենյակներից բացվում է հիասքանչ տեսարան դեպի Հայաստանի խորհրդանիշ Արարատ բիբլիական լեռը և Երևանի գլխավոր ճարտարապետական արժեքներից մեկը` Օպերայի շենքը: Իր 247 սենյակներով «Անի Պլազա Հոթել»-ը հանրապետության ամենամեծ հյուրանոցն է, որի ընդարձակ սենյակները կգոհացնեն ինչպես բիզնես հաճախորդներին, այնպես էլ զբոսաշրջիկներին ու ընտանիքներին, որոնք նախընտրում են ջերմությունն ու հարմարավետությունը: Հյուրերը հնարավորություն ունեն օգտվելու հյուրանոցի լողավազանից, մարզասրահից, գեղեցկության սրահից, ռեստորանից, բարերից և բազմաթիվ այլ ծառայություններից:',
     description1: "This high-end downtown hotel is a 6-minute walk from the Yerevan Opera Theater, a 9-minute walk from a metro station and a 15-minute walk from the Cascade stairway.", 
     description2: "Casual rooms and upmarket suites come with free Wi-Fi, satellite TV and minibars; room service is available. Upgraded quarters add city views.",
     description3: "Breakfast and parking are complimentary, and there's a European restaurant and a cafe. There are 2 bars, 1 in a courtyard with a fountain, plus an indoor pool, a sauna and a fitness center.",
-    photos: ['images/aniplaza1.jpg','images/aniplaza2.jpg','images/aniplaza3.jpg']
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/4HCogVEdnIo?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/aniplaza1.jpg','images/aniplaza2.jpg','images/aniplaza3.jpg','images/aniplaza4.jpg','images/aniplaza5.jpg','images/aniplaza6.jpg','images/aniplaza7.jpg','images/aniplaza8.jpg','images/aniplaza9.jpg','images/aniplaza10.jpg','images/aniplaza11.jpg']
 }
 var tufenkian={
-    name: 'Tufenkian Historic Yerevan Hotel',
+    name:'Tufenkian Historic Yerevan Hotel',
+    armname: 'Թուֆենկյան Ավանդական Երևան Հյուրանոց',
+    rusname: '',
     mainPhoto: 'images/tufenkian.jpg',
     address: "Armenia, 0010, Yerevan Hanrapetutyan St., 48 Building",
+    armdesc: '«Թուֆենկյան Պատմական Երևան» հյուրանոցը տեղակայված է քաղաքի կենտրոնում՝ Հանրապետության հրապարակից մեկ խաչմերուկ հեռավորության վրա և ծառապտված հրաշալի այգուն դեմ հանդիման: Հայ նշանավոր ճարտարապետների և դիզայներնեի ու Թուֆենկյան դիզայներական խմբի համատեղ աշխատանքը հանդիսացող այս հյուրանոցը ևս ունի Թուֆենկյան ավանդական հյուրանոցային համալիրներին բնորոշ իր ուրույն ոճը: Առաջինն հարկում տեղակայված են ընդունարանը, նախասրահը, բարը, 90 հաճախորդների համար նախատեսված «Խարբերդ» ռետորանը և ցուցասրահը: Թուֆենկյան ավանդական հյուրանոցային համալիրն իր ազգային տարրերի դեկորացիայով նորաձև արտաքինով և տարբեր ճարտարապետական ոճերի համադրությամբ Հայաստանի պատմության վկայությունն է:  Արտաքին հարդարումը ավանդական սև և նարնջագույն տուֆից է:  Յուրահատուկ դիզայնի հաջող համադրությունը, տնային հարմարավետությունը հյուրանոցի ամեն մի համարում ստեղծում է տրամադրող մթնոլորտ: Հյուրանոցի աշխատակազմի ջերմ հյուրընկալության  և բարձրակարգ ծառայության շնորհիվ հյուրանոցն արժանացել է հյուրերի կողմից բարձր և միաձայն գովասանքի:',
     description1: "Located between Hanrapetutyan and Buzand streets, this classic hotel in a building reflecting Yerevan architecture of the 19th and 20th-centuries is a 6 minute-walk from the Republic Square and 4 km from the Matenadaran library.", 
     description2: "The warm rooms feature tea and coffeemakers and satellite TVs, plus minifridges. The suites have lounges, balconies and scenic city views. Room service is available.",
     description3: "Amenities include a restaurant serving Western and Eastern Armenian cuisine. There's a seated terrace, a bar/lounge and an outdoor cafe. There's also an indoor pool and a sauna. Parking is available.",
-    photos: ['images/tufenkian1.jpg','images/tufenkian2.jpg','images/tufenkian3.jpg']
+    photos: ['images/tufenkian1.jpg','images/tufenkian2.jpg','images/tufenkian3.jpg','images/tufenkian4.jpg','images/tufenkian4.jpg','images/tufenkian6.jpg']
 }
 var multirest={
     name: 'Multi Rest House',
+    armname: 'Մուլտի Ռեսթ Հաուզ',
+    rusname: '',
     mainPhoto: 'images/multirest.jpg',
     address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Olympiakan St., 8 Building",
+    armdesc: '«Մուլտի Ռեսթ Հաուզ»-ը հյուրանոցային համալիրը գտնվում է գողտրիկ  Ծաղկաձորում: Ծաղկաձոր կարելի է այցելել ամբողջ տարի: Յուրաքանչյուր եղանակի այստեղ կարելի է զբաղմունք գտնել: Կլիման մեղմ է: Ամռանը շատ տաք չէ.ձմռանը`ոչ շատ ցուրտ, և դահուկային սեզոնը սկսվում է նոյեմբերի կեսին: Հիասքանչ «Մուլտի Ռեսթ Հաուզ» հյուրանոցային համալիրում ձեր հանգիստը կարող է հիշարժան դառնալ: Միջազգային բոլոր բարձր չափանիշներին համապատասխան այս հյուրանոցային համալիրը կբավարարի նույնիսկ ամենաքմահաճ հաճախորդի պահանջները: Եթե դուք ուզում եք ձեր հանգիստը անցկացնել ձեր ընտանիքի կամ ընկերների հետ, կազմակերպել գործնական ողևորություններ,սեմինարներ կամ կոնֆերանսներ, ապա հյուրանոցը կստեղծի բոլոր անհրաժեշտ պայմանները: Սենյակների և առանձնատների ներքին հարդարումը յուրօրինակ է՝  նրբաճաշակ դիզայնով և ներդաշնակ գունային երանգներով:',
     description1: 'Multi Rest House" resort offers a long list of different and interesting services to the guests. Comfortably and modernly designed rooms and very nice cottages are at your disposal. Various services will help you to fill your days at the resort with unforgettable moments.', 
     description2: "The following facilities are available here: fitness center, internet cafe, indoor pool, cinema center, football, basketball, tennis, billiard, conference hall for 80 persons, bar and restaurant, etc.",
     description3: "Golden Lion Restaurant serves Armenian cuisine, as well as Mexican and European dishes. The fully stocked bar offers drinks and cocktails.",
-    videoUrl: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Xm8AK0nH0jc" frameborder="0" allowfullscreen></iframe>',
-    photos: ['images/multirest1.jpg','images/multirest2.jpg','images/multirest3.jpg','images/multirest4.jpg','images/multirest5.jpg','images/multirest6.jpg','images/multirest7.jpg','images/multirest8.jpg']
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/Xm8AK0nH0jc?rel=0" frameborder="0" allowfullscreen></iframe>'+'<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/u6LJn_YirR4?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/multirest1.jpg','images/multirest2.jpg','images/multirest3.jpg','images/multirest4.jpg','images/multirest5.jpg','images/multirest6.jpg','images/multirest7.jpg','images/multirest8.jpg','images/multirest9.jpg','images/multirest10.jpg','images/multirest11.jpg','images/multirest12.jpg']
 }
 var doubletree={
     name: 'Doubletree by Hilton Yerevan City Centre',
+    armname: 'Դաբլթրի բայ Հիլթն Երևան Սիթի Սենթր',
+    rusname: '',
     mainPhoto: 'images/doubletree.jpg',
     address: "Armenia, 0015, Yerevan Grigor Lusavorchi St., 4/2 Building",
+    armdesc: 'ԴաբլԹրի Հիլթոն հյուրանոցի բացումը տեղի է ունեցել 2015 թվականին: Հյուրանոցը տեղակայված է Երևանի կենտրոնում՝ Հանրապետության Հրապարակից 10 րոպե հեռավորության վրա: Հյուրանոցն ունի 176 սենյակներ(ստանդարտ, դելյուքս, ընտանեկան դելյուքս, սյուիթ կարգի): Բոլոր սենյակներն ունեն հայելի, hեռուստացույց, արբանյակային հեռուստատեսություն, սեյֆ, լոգարան անհրաժեքտ պիտույքներով, խալաթով, հողաթափերով, սուրճ և թեյ պատրաստող սարք, Մինի բար, անվճար WIFI ինտերնետ: Հյուրանոցն ունի «Գոլդ» ռեստորան, Լոբբի և Լաունջ բար, Գինետուն, Բիզնես կենտրոն, մարզասրահ, Սպա կենտրոն:',
     description1: 'A free bottle of water awaits you on arrival. All hotel guests have free access to the sauna. During your stay, you can park for free at the hotel. Late check-out is possible for free on request.', 
     description2: "Car rental is available at our hotel. Just ask the knowledgeable team at the reception whenever you like.",
     description3: "Enjoy your yummy evening meal in the relaxing surroundings of the restaurant, and then meet family or friends at the lively bar.",
-    photos: ['images/doubletree1.jpg','images/doubletree2.jpg','images/doubletree3.jpg']
+    photos: ['images/doubletree1.jpg','images/doubletree2.jpg','images/doubletree3.jpg','images/doubletree4.jpg']
 }
 var tsmariott={
     name: 'Tsaghkadzor Marriott Hotel',
+    armname: 'Ծաղկաձոր Մարիոթ Հյուրանոց',
+    rusname: '',
     mainPhoto: 'images/tsmariott.jpg',
     address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Tandzaghbyuri St., 2 Building, №4/1",
     description1: 'This hotel rooms all have AC as well as a minibar, a desk, cable TV and coffee making equipment. Hotel also provides international newspapers in the rooms. In every room our hotel offers a safe. A refrigerator is included in your room.', 
@@ -46,15 +87,20 @@ var tsmariott={
 }
 var alexandrapol={
     name: 'Alexandrapol Hotel Palace',
+    armname: 'Ալեքսանդրապոլ Հոթել Փալաս',
+    rusname: '',
     mainPhoto: 'images/alexandrapol.jpg',
     address: "Armenia, 3104, Shirak Marz, Gyumri Mayakovsku St., 70 Building",
     description1: 'Located in the centre of Gyumri, Alexandrapol Palace Hotel features free WiFi and free parking.', 
     description2: "The rooms offer air conditioning, a minibar, hairdryer, working area and flat-screen TV with cable channels.",
     description3: "Guests can dine in the property’s restaurant, or eat out in the cafes and restaurants nearby. There is also a bar on site.",
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/cxMp96xo_Rs?rel=0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/alexandrapol1.jpg','images/alexandrapol2.jpg','images/alexandrapol3.jpg']
 }
 var kechi={
     name: 'Kechi Resort',
+    armname: 'Կեչի Հանգստյան Տուն',
+    rusname: '',
     mainPhoto: 'images/kechi.jpg',
     address: "Armenia, 0009, Tsakhkadzor, Khachatur Kechareci Street 4",
     description1: 'Situated in the heart of Tsakhadzor, the Kechi Resort is conveniently located just 800 metres from the ski lift. This mountainside hotel offers ski storage space, rooms with great views and free Wi-Fi in public areas.', 
@@ -64,6 +110,8 @@ var kechi={
 }
 var elegant={
     name: 'Elegant Hotel & Resort',
+    armname: 'Էլեգանտ Հյուրանոցային Համալիր',
+    rusname: '',
     mainPhoto: 'images/elegant.jpg',
     address: "Armenia, 2310, Tsakhkadzor, Tandzaghbyur street 11",
     description1: 'Featuring a panoramic view of the Tsaghkadzor Valley, Elegant Hotel & Resort offers a restaurant, a bar and a terrace. After a long day of hiking or skiing, guests can relax in the indoor pool and the sauna.', 
@@ -73,6 +121,8 @@ var elegant={
 }
 var alpina={
     name: 'Alpina Hotel',
+    armname: 'Ալպինա Հանգստյան Տուն',
+    rusname: '',
     mainPhoto: 'images/alpina.jpg',
     address: "Armenia, 2310, Tsaghkadzor, Yeghishe Charents Street (Turn 7)",
     description1: 'The property features cottages and rooms offering a TV with satellite channels. The bathroom comes with a hairdryer and free toiletries.', 
@@ -82,6 +132,8 @@ var alpina={
 }
 var bwaghveran={
     name: 'Aghveran Hotel',
+    armname: 'Բեսթ Վեսթերն Աղվերան Հյուրանոց',
+    rusname: '',
     mainPhoto: 'images/bwaghveran.jpg',
     address: "Armenia, 2503, Kotayk Marz, Arzakan village Antarain St., 1 Building",
     description1: 'The high-class "BEST WESTERN Aghveran" hotel is located 40 km far away from Yerevan, on the left bank of Dalar river occupying 6 hectare forest territory beneath the Tsakhquniats mountain chain. The rich nature and fresh air a year round will guarantee a fully enjoyable rest here.', 
@@ -91,6 +143,8 @@ var bwaghveran={
 }
 var arthurs={
     name: 'Arthurs Aghveran Resort',
+    armname: 'Արթուրս Աղվերան Ռեզորթ',
+    rusname: '',
     mainPhoto: 'images/arthurs.jpg',
     address: "Armenia, 2503, Kotayk Marz, Arzakan village (at Aghveran recreation area)",
     description1: '"Arthurs Aghveran Resort" - A variety of meals representing European kitchen and traditional Armenian cuisine are offered to our guests. Our Chief cook will meet the demands of most demanding customers. High quality service, pleasant atmosphere and refined music will take you away from routine.', 
@@ -100,6 +154,8 @@ var arthurs={
 }
 var mimino={
     name: 'Mimino Hotel & Restourant',
+    armname: 'Միմինո Հյուրանոց և Ռեստորան',
+    rusname: '',
     mainPhoto: 'images/mimino.jpg',
     address: "Armenia, Tavush Marz, Dilijan Gorku St., 52 Building",
     description1: 'Offering a restaurant, Mimino Guesthouse is located in Dilijan. Free Wi-Fi access is available. Each room here will provide you with a TV, air conditioning and satellite channels.', 
@@ -109,6 +165,8 @@ var mimino={
 }
 var dresort={
     name: 'Hotel Dilijan Resort',
+    armname: 'Դիլիջան Ռեզորթ',
+    rusname: '',
     mainPhoto: 'images/dresort.jpg',
     address: "Armenia, Tavush Marz, Dilijan Getapnya St., 66 Building",
     description1: 'Panoramic views of the Dilijan National Park, a spa with indoor pool, and an Armenian restaurant with garden terrace are offered by this 4-star hotel in the health resort of Dilijan. Free WiFi is available.', 
@@ -118,6 +176,8 @@ var dresort={
 }
 var odzun={
     name: 'Odzun Hotel',
+    armname: 'Օձուն Պանսիոնատ',
+    rusname: '',
     mainPhoto: 'images/odzun.jpg',
     address: "Armenia, 1731, Lori Marz, Odzun village",
     description1: 'Odzun Hotel is a 15-minute drive from the town of Alaverdi. Guests can enjoy eco-farming and an outdoor swimming pool. Free Wi-Fi and free private parking are provided.', 
@@ -127,6 +187,8 @@ var odzun={
 }
 var alpiakan={
     name: 'Alpine Violet',
+    armname: 'Ալպիական Մանուշակ',
+    rusname: '',
     mainPhoto: 'images/alpiakan.jpg',
     address: "Armenia, 2503, Kotayk Marz, Arzakan village",
     description1: 'Alpine Violet rset house is located in the Kotayk region just 48 km from Yerevan, offer guests a highly pleasing vacation experience in a wonderful natural setting.', 
@@ -136,6 +198,8 @@ var alpiakan={
 }
 var cavalier={
     name: 'MGE Cavalier Cottage Resort Complex',
+    armname: '',
+    rusname: '',
     mainPhoto: 'images/cavalier.jpg',
     address: "Armenia, 2503, Kotayk Marz, Arzakan village",
     description1: 'Located in the Aghveran countryside, this resort complex features spacious green gardens, a swimming pool and sauna, and beautiful views of the surrounding mountains. All accommodation comes with a fully equipped kitchenette.', 
@@ -204,7 +268,7 @@ var magnit={
     description1: 'Just a 30-minute drive from the scenic Lake Parzlich, this 4-storey hotel in Dilijan features a games room, several kitchens, and a terrace, where guests can enjoy barbecue facilities.', 
     description2: 'Both simple and classic-style rooms with private and shared bathrooms are available at the Magnit. All feature a satellite TV and many have a spacious seating area with traditional Armenian-style furnishings.',
     description3: "Fully equipped kitchens are available on the 2nd and 3rd floors, where guests can cook their own meals. A rich breakfast, and traditional Armenian and Georgian cookery are served in the 1st floor restaurant.",
-    photos: ['images/magnit1.jpg','images/magnit2.jpg','images/magnit3.jpg']
+    photos: ['images/magnit1.jpg','images/magnit3.jpg']
 }
 var diligence={
     name: 'Diligence Hotel',
@@ -262,15 +326,15 @@ var dghyak={
     videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/dXJe4ABXaGA" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/dghyak1.jpg','images/dghyak2.jpg','images/dghyak3.jpg']
 }
-var hotels=[aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak];
+var hotels=[royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak];
 
 var row=$(".hotels")[0];
 
 hotels.forEach(function(item, index) {
     var image=item.photos.reduce(function(prev,curr) {
-        return prev + '<a href="'+curr+'" class="image-popup">'+
-                    '<img src="'+curr+'" width="100" alt="Image">'+
-                '</a>'
+        return prev + '<a href="'+curr+'" class="image-popup"> \
+                    <img src="'+curr+'" width="100" alt="Image"> \
+                </a>';
     },'');
     console.log(image);
     row.innerHTML+='<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">'+
@@ -291,12 +355,12 @@ hotels.forEach(function(item, index) {
                 '<h4 class="modal-title" id="myModalLabel">'+item.name+'</h4>'+
             '</div>'+
             '<div class="modal-body">'+
-                '<p>'+item.description1+'</p>'+
-                '<p>'+item.description2+'</p>'+
+                '<p>'+item.description1+'</p> \
+                <p>'+item.description2+'</p>'+
                 '<p>'+item.description3+'</p>'+
                 (item.videoUrl?item.videoUrl:'')+
-                '<div class="col-md-12">' + image + '</div>'+
-                '<p>FOR BOOKING PLEASE CALL...</p>'+
+                '<div class="col-md-12">' + image + '</div> \
+                <p>FOR BOOKING PLEASE CALL...</p>'+
                 '<p>'+
                     '<a href="tel:+37441506041">+374 41 50 60 41</a>'+
                     '<a href="tel:+37498803500">+374 98 80 35 00</a>'+ 							
