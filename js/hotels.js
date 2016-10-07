@@ -462,7 +462,7 @@ var aliq={
     photos: ['images/aliq1.jpg','images/aliq2.jpg','images/aliq3.jpg','images/aliq4.jpg','images/aliq5.jpg','images/aliq6.jpg','images/aliq7.jpg','images/aliq8.jpg','images/aliq9.jpg','images/aliq10.jpg','images/aliq11.jpg']
 }
 
-var hotels=[royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, alpiakan, mimino, dresort, parkresort, cavalier, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, gpalace, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis];
+var hotels=[royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, alpiakan, mimino, dresort, parkresort, cavalier, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, gpalace, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq];
 
 var row=$(".hotels")[0];
 
