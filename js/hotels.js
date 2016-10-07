@@ -389,10 +389,80 @@ var writers={
     description1: 'Tsakhkadzor Writers House holiday resort is one of the top Armenian hospitality facilities offering excellent tourist service, comprehensive recreation and leisure facilities as well as premium conference and business meeting rooms.', 
     description2: 'The resort combines three interconnected wings each consisting of three levels linked by large halls and corridors. All rooms feature convenient lounges and open balconies with a view over the nearby forest. ',
     description3: 'The building stretches from east wing to the west wing overlooking the nearby natural forest and containing an inner garden on the southern side.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/DJiVQoJYgL4?rel=0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/writers1.jpg','images/writers2.jpg','images/writers3.jpg','images/writers4.jpg','images/writers5.jpg']
 }
+var sportcomplex={
+    name: 'General Sport Complex Tsaghkadzor',
+    armname: 'Ծաղկաձորի գլխավոր մարզահամալիր',
+    mainPhoto: 'images/sportcomplex.jpg',
+    address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor",
+    armdesc: 'Ծաղկաձորի գլխավոր մարզահամալիրը գտնվում է Թեղենիս լեռան հարավ-արևմտյան լանջին` քաղաքամայր Երևանից 55կմ հեռավորության վրա: Եվ այսպես. շնորհիվ իր բարձր լեռնային դիրքի (2000մ ծովի մակերևույթից բարձր), բնակլիմայական հիանալի և առողջարար պայմանների մարզահամալիրն այսօր էլ համարվում է Ծաղկաձորի լավագույն հանգստավայրերից մեկը: Սաղարթախիտ անտառով և հյուրանոցը օղակող հիասքանչ պուրակով շրջապատված այս հյուրանոցը նախատեսված է թե՛ ընտանեկան հանգստի, թե՛ գործարար հանդիպումների և թե՛ ուսումնամարզական հավաքների կազմակերպման համար:',
+    description1: 'General Sport Complex is located on the North West slope of mount Teghenis, 55km from Yerevan. Due to its mountainous terrain (2000 meters above sea-level), accommodating and healthy climatic conditions, Sport Complex is considered one of the best resorts in Tsaghkadzor. ', 
+    description2: 'Being ideally surrounded by verdant forests and landscaped grounds, Complex is a perfect place for relaxation, family rest, business meeting and training camps. Tsaghkadzor General Sport Complex was founded in 1967 right before Summer Olympic Games in Mexico to serve as training facility for USSR Olympic team.',
+    description3: 'Today, after its full renovation in 2007 Sport Complex houses 182 refurbished rooms that feature sleek and comfortable furnishings designed to satisfy the most exquisite taste. Thanks to world class Olympic pool, training grounds armed with the cutting–edge equipment and designed for wide variety of sport types, the Complex has always been in the center of attention of CIS and European athletes.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/GrBGZcut6gw?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/sportcomplex1.jpg','images/sportcomplex2.jpg','images/sportcomplex3.jpg','images/sportcomplex4.jpg','images/sportcomplex5.jpg','images/sportcomplex6.jpg','images/sportcomplex7.jpg','images/sportcomplex8.jpg']
+}
+var bluesevan={
+    name: 'Blue Sevan Hotel',
+    armname: 'Կապուտակ Սևան',
+    mainPhoto: 'images/bluesevan.jpg',
+    address: "Armenia, Gegharkunik Marz, Chambarak Tsovagyugh-Shorzha Road Section ",
+    armdesc: '«Կապուտակ Սևան» հանգստյան համալիրը հանգստացողներին ըստ նրանց ճաշակի և նախապատվությունների առաջարկում է տարբեր հարմարություններ` հյուրանոց, փայտյա տնակներ, երկհարկանի քոթեջներ: Համալիրը հանգստացողներին երաշխավորում է կատարյալ մաքրություն, բարձրակարգ սպասարկում և հարմարավետություն: Համալիրի տարածքում գործող Ռեստորանները, հմուտ խոհարարների շնորհիվ կկազմակերպեն ձեր ճաշն ու ընթրիքը ճիշտ և ժամանակին:',
+    description1: 'Offering a restaurant and a private beach area, Blue Sevan Hotel is located 2,000 m above sea level in Goris, right by Lake Sevan. Free private parking is available.', 
+    description2: 'The rooms feature a flat-screen TV and a fridge. The bathroom comes with a hairdryer and free toiletries.',
+    description3: 'At Blue Sevan Hotel you will find a garden, barbecue facilities and a terrace. Other facilities offered at the property include a nightclub, grocery deliveries and water sports facilities. An array of activities can be enjoyed on site or in the surroundings, including cycling and horse riding.',
+    photos: ['images/bluesevan1.jpg','images/bluesevan2.jpg','images/bluesevan3.jpg','images/bluesevan4.jpg','images/bluesevan5.jpg','images/bluesevan6.jpg','images/bluesevan7.jpg','images/bluesevan8.jpg','images/bluesevan9.jpg','images/bluesevan10.jpg','images/bluesevan11.jpg','images/bluesevan12.jpg','images/bluesevan13.jpg']
+}
+var araratjermuk={
+    name: 'Jermuk Ararat Health SPA',
+    armname: 'Ջերմուկ Արարատ Առողջարան',
+    mainPhoto: 'images/araratjermuk.jpg',
+    address: "Armenia, 3701, Vayots Dzor Marz, Jermuk Shahumyan St., 18 Building",
+    armdesc: 'Հանրահայտ առողջարանային քաղաք Ջերմուկում արդեն չորս տասնամյակ գործում է «Արարատ» առողջարանը, որը համարվում է ոչ միայն Հայաստանի լավագույն առողջարանային վերականգնողական կենտրոններից մեկը, այլ նաև՝ հաստատություն, որտեղ կարելի է պարզապես անցկացնել լիարժեք հանգիստ: «Արարատ» առողջարանում կատարվում է արդյունավետ բուժման ու լիակատար հանգստի ամբողջական գործընթաց:',
+    description1: 'Jermuk Ararat Health SPA is located in the central area of Jermuk, 2,080 m above sea level, within a 5-minute walk of a mineral water spring.', 
+    description2: 'The on-site restaurant serves dishes of local cuisine and dietary meals.',
+    description3: 'Guests of all rooms can have a variety of health treatments free of charge, including mineral baths, electrotherapy, paraffin therapy, inhalation therapy, and oxygen cocktails. Massage sessions are provided at surcharge.',
+    photos: ['images/araratjermuk1.jpg','images/araratjermuk2.jpg','images/araratjermuk3.jpg','images/araratjermuk4.jpg','images/araratjermuk5.jpg','images/araratjermuk6.jpg','images/araratjermuk7.jpg']
+}
+var russiahotel={
+    name: 'Hotel Russia',
+    armname: 'Ռոսիա Ծաղկաձորի Հյուրանոցային Համալիր',
+    mainPhoto: 'images/russiahotel.jpg',
+    address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Grigor Magistrosi St., 7 Building",
+    armdesc: 'Հյուրանոցն առաջարկում է հանգստացողներին համարներ` սկսած դասական Single/Duble և վերջացրած 2 առանձնասենյակներ «Presidetial Luxe» -ով: Հյուրանոցի առաջին հարկը կահավորված է փափուկ կահույքով և պահանջարկ վայելող էկզոտիկ ծառերով: Հյուրանոցը ունի 2 ապակե վերելակներ, որոնցից Ձեզ համար բացվում է ընդունարանի հիանալի տեսարանը` յուրահատուկ «Նոր Ռուս» լաունջ բարով:',
+    description1: 'Located in Tsaghkadzor, Russia Hotel features a spa and wellness centre, sauna, fitness centre and indoor pool. Free WiFi and free parking are available on site.', 
+    description2: 'The rooms offer a fridge and a flat-screen TV with satellite channels. Some rooms come with a spa bath.',
+    description3: 'Guests can dine in the open air café, and there is also a bar in the hotel. Breakfasts in the room and room service are provided upon request.',
+    photos: ['images/russiahotel1.jpg','images/russiahotel2.jpg','images/russiahotel3.jpg','images/russiahotel4.jpg','images/russiahotel5.jpg','images/russiahotel6.jpg','images/russiahotel7.jpg','images/russiahotel8.jpg']
+}
+var kecharis={
+    name: 'Kecharis Hotel Cmplex',
+    armname: 'Կեչառիս Հյուրանոցային Համալիր',
+    mainPhoto: 'images/kecharis.jpg',
+    address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Orbeli Yeghbayrneri St., 20 Building",
+    armdesc: 'ԿԵՉԱՌԻՍ հյուրանոցային համալիրը տեղակայված է մայրաքաղաքից 55 կմ հեռավորության վրա, Ծաղկաձորում: Մաքուր օդը և հիանալի կլիման դարձնում են այս վայրը դրախտային, ինչպես ամռանը, այնպես էլ ձմռան ամիսներին: Հյուրանոցից 5 րոպե քայլելով Դուք կարող եք հասնել XI դարի հայտնի Կեչառիս վանական համալիր, իսկ 5 րոպե վարելով ավտոմեքենա՝ ճոպանուղի:',
+    description1: 'Located just 4 minutes’ walk from the 11th-century Kecharis Monastery in Tsaghkadzor town, Hotel Kecharis features bowling and free Wi-Fi. Tsakhadzor Ski Lifts are 5 minutes’ drive away.', 
+    description2: 'Every room at the hotel is decorated in brown tones and includes a flat-screen TV. A minibar is provided in all rooms, and bathrooms have a shower.',
+    description3: 'Kecharis Restaurant serves national and European cuisine, and stylish Kavkazskaya Plennitsa and Gentlemen of Fortune restaurants offer Caucasian dishes. Guests can relax in the Lounge cafe Capuccino.',
+    videoUrl: '<iframe class="col-md-12 height="315" src="https://www.youtube.com/embed/4xUqIERg8bY?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/kecharis1.jpg','images/kecharis2.jpg','images/kecharis3.jpg','images/kecharis4.jpg','images/kecharis5.jpg','images/kecharis6.jpg','images/kecharis7.jpg','images/kecharis8.jpg','images/kecharis9.jpg','images/kecharis10.jpg','images/kecharis11.jpg']
+}
+var aliq={
+    name: 'Aliq recreation zone',
+    armname: 'Aliq հանգստյան գոտի',
+    mainPhoto: 'images/aliq.jpg',
+    address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Avetik Isahakyan St., 13 Building",
+    armdesc: '«Ալիք» հյուրանոցային համալիրը գտնվում է Ծաղկաձոր քաղաքի սկզբնամասում, անտառային բնության գրկում, հիանալի մի վայր, որտեղ բնությունը դարձել է հանգստի հրաշալի գոտի: Մասնագիտացված աշխատակազմ, ժամանակակից աշխատաոճ գեղեցիկ միջավայր, մաքուր և կազդուրիչ օդ, հանգիստը վայելելու իդեալական պայմաններ, բուժիչ շոգեբաղնիք, յուրօրինակ լողավազան, ամենատարբեր ուտեստներով լի խոհանոց, հարմարավետ կահավորված սենյակներ, մանկական խաղասրահ և այն ամենը` ինչը ձեր օրը կդարձնի հետաքրքիր և դուք ձեզ կզգաք հանգստի լիարժեք պայմաններում:',
+    description1: '“Aliq” hotel complex is situated in the beginning of Tsakhkadzor, in the heart of the forest, a beautiful place where the nature becomes a nice place for rest.', 
+    description2: 'Charming surrounding, pure and healthy air, perfect conditions to have a rest, curing sauna, a specific basin, with kitchen full of different dishes, comfortable rooms, playing hall for children and everything that will make Your day interesting and You will fееl yourself in real relax conditions.',
+    description3: 'There is restaurant ”Sofia” in “Aliq” hotel complex, where you can organize wedding birthday and other happy parties. There are also organized seminars and current reports of the most exigent organizations.',
+    videoUrl: '<iframe class="col-md-12 height="315" src="https://www.youtube.com/embed/4xUqIERg8bY?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/aliq1.jpg','images/aliq2.jpg','images/aliq3.jpg','images/aliq4.jpg','images/aliq5.jpg','images/aliq6.jpg','images/aliq7.jpg','images/aliq8.jpg','images/aliq9.jpg','images/aliq10.jpg','images/aliq11.jpg']
+}
 
-var hotels=[royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, gpalace, splendor, writers];
+var hotels=[royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, alpiakan, mimino, dresort, parkresort, cavalier, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, gpalace, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis];
 
 var row=$(".hotels")[0];
 
