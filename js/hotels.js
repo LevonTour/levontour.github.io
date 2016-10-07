@@ -458,7 +458,6 @@ var aliq={
     description1: '“Aliq” hotel complex is situated in the beginning of Tsakhkadzor, in the heart of the forest, a beautiful place where the nature becomes a nice place for rest.', 
     description2: 'Charming surrounding, pure and healthy air, perfect conditions to have a rest, curing sauna, a specific basin, with kitchen full of different dishes, comfortable rooms, playing hall for children and everything that will make Your day interesting and You will fееl yourself in real relax conditions.',
     description3: 'There is restaurant ”Sofia” in “Aliq” hotel complex, where you can organize wedding birthday and other happy parties. There are also organized seminars and current reports of the most exigent organizations.',
-    videoUrl: '<iframe class="col-md-12 height="315" src="https://www.youtube.com/embed/4xUqIERg8bY?rel=0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/aliq1.jpg','images/aliq2.jpg','images/aliq3.jpg','images/aliq4.jpg','images/aliq5.jpg','images/aliq6.jpg','images/aliq7.jpg','images/aliq8.jpg','images/aliq9.jpg','images/aliq10.jpg','images/aliq11.jpg']
 }
 
