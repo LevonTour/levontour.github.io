@@ -80,10 +80,12 @@ var tsmariott={
     rusname: '',
     mainPhoto: 'images/tsmariott.jpg',
     address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Tandzaghbyuri St., 2 Building, №4/1",
+    armdesc: 'Ծաղկաձոր «Մարիոթ» Հոթելը բացվել է 2012 թ-ի դեկտեմբերին: Հյուրանոցը փորձում է կոտրել ծաղկաձորյան սեզոնային բիզնեսի վերաբերյալ ձեւավորված կարծրատիպը, այն ներառում է լիարժեք ընտանեկան հանգստի համար անհրաժեշտ բոլոր ենթակառուցվածքները տարվա բոլոր եղանակների համար և համապատասխանում է բոլոր միջազգային ստանդարտներին: Շենքի ճարտարապետությունը եւ դիզայնը արվել են Եվրոպայից և ԱՄՆ-ից հրավիրված Մարիոտի մասնագետների կողմից` հայ մասնագետների մասնակցությամբ: Հյուրանոցային համալիրի հիմնական շենքում կան 65 համարներ, ինչպես նաեւ 7 վիլլաներ` յուրաքանչյուրում 5-ական սենյակ: Հյուրանոցի բոլոր համարներն ապահովված են Wi-Fi կապով, որի համար Հրազդանից Ծաղկաձոր առանձնացված ինտերնետային մալուխ է բերվել: Ծաղկաձոր Մարիոտի բոլոր սենյակները ապահովված են նաեւ արբանյակային հեռուստատեսությամբ եւ միջազգային հեռախոսակապով:',
     description1: 'This hotel rooms all have AC as well as a minibar, a desk, cable TV and coffee making equipment. Hotel also provides international newspapers in the rooms. In every room our hotel offers a safe. A refrigerator is included in your room.', 
     description2: "For your convenience soft bathrobes await you in your room's bathroom. You can slip one on after you're done showering and then dry your hair with the hand-held hair-dryer provided.",
     description3: "Hotel offers a sauna and hot tub for the enjoyment of its visitors. Hotel provides its guests with their own sauna. A tanning shop is also included.",
-    photos: ['images/tsmariott1.jpg','images/tsmariott2.jpg','images/tsmariott3.jpg']
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/NyKVKl_J3ck?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/tsmariott1.jpg','images/tsmariott2.jpg','images/tsmariott3.jpg','images/tsmariott4.jpg','images/tsmariott5.jpg','images/tsmariott6.jpg','images/tsmariott7.jpg','images/tsmariott8.jpg','images/tsmariott9.jpg','images/tsmariott10.jpg','images/tsmariott11.jpg','images/tsmariott12.jpg','images/tsmariott13.jpg']
 }
 var alexandrapol={
     name: 'Alexandrapol Hotel Palace',
@@ -91,11 +93,12 @@ var alexandrapol={
     rusname: '',
     mainPhoto: 'images/alexandrapol.jpg',
     address: "Armenia, 3104, Shirak Marz, Gyumri Mayakovsku St., 70 Building",
+    armdesc: '«Ալեքսանդրապոլ»  հյուրանոցը տեղակայված է Գյումրու կենրոնական հրապարակից ոչ շատ հեռու: Այն շքեղ ինտերիերով, սիրալիր և պատրաստակամ հյուրընկալությամբ և անկրկնելի արվեստի ստեղծագործություններով հաստատություն է, որոնք կդարձնեն ձեր հանգիստը անմոռանալի ու հարմարավետ: «Ալեքսանդրապոլ» հյուրանոցը շրջապատում են Գյումրու պատմական թաղամասն իր եզակի ճարտարապետությամբ, որ դեռ կրում է հին քաղաքի աուրան, տարածքի ամենաբարձր կրոնական կառույցներից մեկը և խաչքարերի պուրակը: «Ալեքսանդրապոլ»  հյուրանոցը առանձնահատուկ է իր մեծ և հարմարավետ սենյակներով, նրբաճաշակ և նորաձև կահույքով: Անկախ նրանից թե որտեղից է սկսվում ձեր ճանապարհորդությունը Հայաստանուն, դուք այստեղ կանցկացնեք անմոռանալի ժամանակ: Հյուրանոցի 18 սենյակները, սկսած առանձնասենյակներից մինչև VIP, հրաշալի խոհանոցը կերաշխավորեն Ձեր բացառիկ ճանապարհորդական փորձառությունը Գյումրիում:',
     description1: 'Located in the centre of Gyumri, Alexandrapol Palace Hotel features free WiFi and free parking.', 
     description2: "The rooms offer air conditioning, a minibar, hairdryer, working area and flat-screen TV with cable channels.",
     description3: "Guests can dine in the property’s restaurant, or eat out in the cafes and restaurants nearby. There is also a bar on site.",
     videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/cxMp96xo_Rs?rel=0" frameborder="0" allowfullscreen></iframe>',
-    photos: ['images/alexandrapol1.jpg','images/alexandrapol2.jpg','images/alexandrapol3.jpg']
+    photos: ['images/alexandrapol1.jpg','images/alexandrapol2.jpg','images/alexandrapol3.jpg','images/alexandrapol4.jpg','images/alexandrapol5.jpg','images/alexandrapol6.jpg','images/alexandrapol7.jpg','images/alexandrapol8.jpg']
 }
 var kechi={
     name: 'Kechi Resort',
@@ -114,10 +117,12 @@ var elegant={
     rusname: '',
     mainPhoto: 'images/elegant.jpg',
     address: "Armenia, 2310, Tsakhkadzor, Tandzaghbyur street 11",
+    armdesc: ' "Էլեգանտ" հյուրանոցը մատուցում է այն բոլոր ծառայությունները, որոնք հնարավոր են կուրորտային Ծաղկաձորում: Այստեղ Դուք կարող եք տեսնել այն բոլոր ծառայությունները, որը մենք տրամադրում ենք մեր հյուրերին. մարզասրահ, բիլիարդի սրահ, կալյան բար, ֆիննական սաունա, թուրքական համամ և լողավազան, մանկական խաղասենյակ՝ երեխաների հետ հանգստացող հյուրերի համար: ',
     description1: 'Featuring a panoramic view of the Tsaghkadzor Valley, Elegant Hotel & Resort offers a restaurant, a bar and a terrace. After a long day of hiking or skiing, guests can relax in the indoor pool and the sauna.', 
     description2: "With views over the mountains, each room here will provide you with air conditioning, a balcony and a minibar. A satellite TV with satellite channels and free WiFi access are available.",
     description3: "The restaurant on site serves gourmet-style dishes.",
-    photos: ['images/elegant1.jpg','images/elegant2.jpg','images/elegant3.jpg']
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/wX3oRH2O3zo?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/elegant1.jpg','images/elegant2.jpg','images/elegant3.jpg','images/elegant4.jpg','images/elegant5.jpg','images/elegant6.jpg','images/elegant7.jpg','images/elegant8.jpg','images/elegant9.jpg','images/elegant10.jpg']
 }
 var alpina={
     name: 'Alpina Hotel',
@@ -125,6 +130,7 @@ var alpina={
     rusname: '',
     mainPhoto: 'images/alpina.jpg',
     address: "Armenia, 2310, Tsaghkadzor, Yeghishe Charents Street (Turn 7)",
+    armdesc: '՛՛Ալպինա՛՛ հանգստյան տունը գտնվում է զբոսաշրջիկների ամենասիրելի քաղաքում՝ Ծաղկաձորում: Բարձրությունը ծովի մակերևույթից՝ 1840 մ է, հեռավորությունը Երևանից՝ 55 կմ, իսկ ՛՛Զվարթնոց՛՛ միջազգային օդանավակայանից` 70 կմ: Կլիման բարեխառն է, օժտված առողջարար հատկություններով: Ձմեռվա միջին ջերմաստիճանը – 5 է, տեղումների տարեկան միջին քանակությունը 600-700 մմ է, տարվա մեջ 300 օր:',
     description1: 'The property features cottages and rooms offering a TV with satellite channels. The bathroom comes with a hairdryer and free toiletries.', 
     description2: "Guests can order a meal in the on-site restaurant serving dishes of national and European cuisine. You can also enjoy a glass of your favourite drink at the bar. Barbecue facilities are provided.",
     description3: "At Alpina Hotel you will find a 24-hour front desk and a garden. Other facilities offered at the property include a shared lounge, a tour desk, a spa and wellness centre and a children's playground.",
@@ -198,7 +204,7 @@ var alpiakan={
 }
 var cavalier={
     name: 'MGE Cavalier Cottage Resort Complex',
-    armname: '',
+    armname: 'ՄԳԵ Կավալիեր',
     rusname: '',
     mainPhoto: 'images/cavalier.jpg',
     address: "Armenia, 2503, Kotayk Marz, Arzakan village",
@@ -209,6 +215,7 @@ var cavalier={
 }
 var parkresort={
     name: 'Park Resort Aghveran',
+    armname: 'Պարկ Ռեզորթ Աղվերան',
     mainPhoto: 'images/parkresort.jpg',
     address: "Armenia, 2503, Kotayk Marz, Arzakan village Antarain St. 1st Blind Alley",
     description1: 'Featuring free Wi-Fi and active sports facilities, this hotel is located 500 metres from the ski slopes of Aghveran Resort. It offers a 24-hour reception and rooms with a kitchenette.', 
@@ -218,6 +225,7 @@ var parkresort={
 }
 var crystal={
     name: 'Crystal Resort Aghveran',
+    armname: 'Կրիստալ Ռեզորթ',
     mainPhoto: 'images/crystal.jpg',
     address: "Armenia, 2503, Kotayk Marz, Arzakan village Antarain St., 41 Building",
     description1: 'Crystal Resort is located 45km from Yerevan.', 
@@ -227,6 +235,7 @@ var crystal={
 }
 var arzniresort={
     name: 'Arzni Health Resort',
+    armname: 'Արզնի Առողջարան',
     mainPhoto: 'images/arzniresort.jpg',
     address: "Armenia, 2212, Kotayk Marz, Arzni village",
     description1: 'Arzni Health Resort is a whole complex for treatment and rest. It is situated at a height of 1250 meters above sea level on the 23th km to the North of Yerevan, on the slope of the gorge covered with forest and shrubbery, where clear and ringing purl of Hrazdan river can be heard.', 
@@ -236,6 +245,7 @@ var arzniresort={
 }
 var yeghevnut={
     name: 'Yeghevnut Hotel',
+    armname: 'Եղևնուտ',
     mainPhoto: 'images/yeghevnut.jpg',
     address: "Armenia, 3202, Syunik Marz, Goris Yerevanyan Highway, 7 Building",
     description1: 'Offering a 24-hour reception and rooms with flat-screen TVs, this hotel is situated in the east of Goris. Armenian specialities are served in the restaurant, and free Wi-Fi is available in public areas.', 
@@ -245,6 +255,7 @@ var yeghevnut={
 }
 var zanger={
     name: 'Zanger Hotel',
+    armname: 'Զանգեր Հյուրանոց',
     mainPhoto: 'images/zanger.jpg',
     address: "Armenia, Syunik Marz, Goris Bakuntsi St., 13 Building",
     description1: 'Located in Goris, Zanger Hotel offers a garden and free WiFi. Free parking is available on site.', 
@@ -254,6 +265,7 @@ var zanger={
 }
 var goris={
     name: 'Goris Guest House',
+    armname: 'Գորիս Հյուրատուն',
     mainPhoto: 'images/goris.jpg',
     address: "Armenia, Syunik Marz, Khorenatsi St. 53 Building",
     description1: '"Goris" hotel is situated in the centre of the city', 
@@ -263,6 +275,7 @@ var goris={
 }
 var magnit={
     name: 'Magnit',
+    armname: 'Մագնիտ',
     mainPhoto: 'images/magnit.jpg',
     address: "Armenia, Tavush Marz, Dilijan Kalinini St., 86 House",
     description1: 'Just a 30-minute drive from the scenic Lake Parzlich, this 4-storey hotel in Dilijan features a games room, several kitchens, and a terrace, where guests can enjoy barbecue facilities.', 
@@ -272,6 +285,7 @@ var magnit={
 }
 var diligence={
     name: 'Diligence Hotel',
+    armname: 'Դիլիժանս',
     mainPhoto: 'images/diligence.jpg',
     address: "Armenia, Tavush Marz, Dilijan Sayat-Novai St., 69a Building",
     description1: 'In a garden 20 metres from the Agstev River in the spa town of Dilijan, Diligence Hotel offers free WiFi in all areas. Located 50 metres from the forest and 1.6 km from the town centre, it offers table tennis and a 24-hour reception.', 
@@ -281,6 +295,7 @@ var diligence={
 }
 var haghartsin={
     name: 'Haghrartsin Hotel',
+    armname: 'Հաղարծին Հյուրանոց',
     mainPhoto: 'images/haghartsin.jpg',
     address: "Armenia, Tavush region, Dilijan, Kamo st. 121.",
     description1: 'You will taste a variety of Armenian and European dishes. Design, location and facilities of this complex will let You enjoy Your time.', 
@@ -290,6 +305,7 @@ var haghartsin={
 }
 var gosh={
     name: 'Mkhitar Gosh Guesthouse',
+     armname: 'Մխիթար Գոշ Հյուրատուն',
     mainPhoto: 'images/gosh.jpg',
     address: "Armenia, Tavush region, Gosh, Mkhitar Gosh Str. 76",
     description1: 'Bed and Breakfast was awarded 3 category by State Authority. Mkhitar Gosh Guest house is located in village Gosh of Tavoush Region, nearby Goshavanq Monastery built in 12-13 centuries. The distance from Dilijan is 22 km.', 
@@ -299,6 +315,7 @@ var gosh={
 }
 var bwparadise={
     name: 'Best Western Paradise Hotel Dilijan',
+    armname: 'Բեսթ Վեսթերն Փարադայս',
     mainPhoto: 'images/bwparadise.jpg',
     address: "Armenia, 3904, Tavush Marz, Dilijan Kamoi St., 156 Building",
     description1: 'BEST WESTERN Paradise Hotel Dilijan is located in a picturesque area, within a 5-minute drive from M4 Highway, which connects Armenia and Georgia. Free Wi-Fi and free private parking are provided.', 
@@ -308,6 +325,7 @@ var bwparadise={
 }
 var impuls={
     name: 'Impuls',
+    armname: 'Իմպուլս',
     mainPhoto: 'images/impuls.jpg',
     address: "Armenia, Tavush Marz, Dilijan Parz Lich St., 14 Building",
     description1: '"Impuls" Dilijan health improving complex was created in 1976. It was aimed to provides guests with full rest and prophylaxis.', 
@@ -317,7 +335,7 @@ var impuls={
     photos: ['images/impuls1.jpg','images/impuls2.jpg','images/impuls3.jpg']
 }
 var dghyak={
-    name: 'Dghyak Pansion',
+    name: 'Դղյակ',
     mainPhoto: 'images/dghyak.jpg',
     address: "Armenia, Tavush Marz, Dilijan Sayat-Novai St., 50 Building",
     description1: 'Free Wi-Fi and an indoor pool are offered at this hotel, located next to Haghartsin Monastery. The hotel features brightly decorated rooms with a flat-screen TV and a seating area with sofa.', 
@@ -336,7 +354,6 @@ hotels.forEach(function(item, index) {
                     <img src="'+curr+'" width="100" alt="Image"> \
                 </a>';
     },'');
-    console.log(image);
     row.innerHTML+='<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">'+
         '<a type="button" class="fh5co-project-item" data-toggle="modal" data-target="#modal-'+index+'">'+
             '<img src="'+item.mainPhoto+'" alt="Image" class="img-responsive main-img">'+
