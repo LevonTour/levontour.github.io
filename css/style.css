@@ -23,6 +23,15 @@ body {
 body.fh5co-overflow {
   overflow-x: auto;
 }
+body.en :lang(am) {
+  display: none;
+}
+body.am :lang(en) {
+  display: none;
+}
+a {
+  cursor: pointer;
+}
 modal {
   z-index: 1000;
 }

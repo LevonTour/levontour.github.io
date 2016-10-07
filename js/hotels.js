@@ -335,7 +335,8 @@ var impuls={
     photos: ['images/impuls1.jpg','images/impuls2.jpg','images/impuls3.jpg']
 }
 var dghyak={
-    name: 'Դղյակ',
+    name: 'Dghyak',
+    armname: 'Դղյակ',
     mainPhoto: 'images/dghyak.jpg',
     address: "Armenia, Tavush Marz, Dilijan Sayat-Novai St., 50 Building",
     description1: 'Free Wi-Fi and an indoor pool are offered at this hotel, located next to Haghartsin Monastery. The hotel features brightly decorated rooms with a flat-screen TV and a seating area with sofa.', 
@@ -344,7 +345,54 @@ var dghyak={
     videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/dXJe4ABXaGA" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/dghyak1.jpg','images/dghyak2.jpg','images/dghyak3.jpg']
 }
-var hotels=[royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak];
+var redhotel={
+    name: 'Red Hotel',
+    armname: 'Ռեդ Հոթել',
+    mainPhoto: 'images/redhotel.jpg',
+    address: "Armenia, 3904, Tavush Marz, Dilijan Kamoi St., 33 Building",
+    armdesc: 'ՌԵԴ ՀՈԹԵԼ հյուրանոցում կարող եք վայելել Ձեր կատարյալ հանգիտը՝ բնության և հարմարավետության համադրությամբ: Նոր  վերակառուցված  հյուրանոցը  գտնվում  է  Հայաստանի  ամենագեղեցիկ  վայրերից մեկում՝ չքնաղ Դիլիջանում: Տեղակայված  լինելով  լեռնային  կիրճում՝ հյուրանոցը  ունի մեծ,  գեղեցիկ  այգի: Համարների  պատուհաններից  բացվում  է  հիասքանչ տեսարան դեպի  Աղստև  գետը  և  լեռները,  որոնք   պատված  են  անտառներով, այդ  թվում  նաև՝  փշատերև: Հյուրանոցը  ունի  ընդամենը  7  համար, որոնցից 5-ը երկսենյականոց լյուքսեր են: Շատ  հարմար  է  ընտանեկան   հանգստի, գործնական  և  ընտանեկան  մտերիմ հանդիպումների   համար: ',
+    description1: 'Located in Dilijan, Red Hotel Dilijan features a sauna and outdoor swimming pool. Agartsyn Monastery is a 10-minute drive away. Free Wi-Fi and private parking are available.', 
+    description2: 'The comfortable rooms and apartments are air conditioned and feature a flat-screen satellite TV. The apartments have a fully equipped kitchen where guests can cook their own meals.',
+    description3: 'Red Hotel Dilijan has a garden with BBQ facilities and table tennis. Sevan Lake is a 20-minute drive away, and Yerevan is 90 km away.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/yrUzJclyz2g?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/redhotel1.jpg','images/redhotel2.jpg','images/redhotel3.jpg','images/redhotel4.jpg','images/redhotel5.jpg','images/redhotel6.jpg','images/redhotel7.jpg']
+}
+var gpalace={
+    name: 'Golden Palace Hotel Resort & Spa GL',
+    armname: 'Գոլդեն Փելիս Հյուրանոց Ռեզորտ և Սպա Ջի Էլ',
+    mainPhoto: 'images/gpalace.jpg',
+    address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Tandzaghbyuri St., 34/1 Building",
+    armdesc: '“Գոլդեն Փալաս Ռեզորթ & ՍՊԱ” հյուրանոցը տարածաշրջանում պաշտոնապես ճանաչում ստացած միակ 5-աստղանի հյուրանոցն է: 120 նորաձև սենյակներ, որտեղ ժամանակին բնակվել են ազնվականներ, պատրաստ են տեղավորել Ձեզ և ապահովել Ձեր անմոռանալի հանգիստը: Թեև հյուրանոցն ինքնին արտացոլում է բազմազան ոճեր, Դուք միշտ կարող եք համոզված լինել, որ հենց առաջին իսկ պահից կգտնվեք հուսալի ձեռքերում: Բոլոր սենյակներում կա սանհանգույց, լոգասենյակ և / կամ ցնցուղ, հարթէկրան հեռուստացույց, ինտերնետային կապ, ուղիղ հեռախոսակապ և փոքր սառնարան: ',
+    description1: 'Featuring an on-site restaurant and cigar bar, this Armenian resort is 7 km from Bus Stop Tsaghkadzor. A full-service spa, billiard hall, and indoor pool are available as well.', 
+    description2: 'All rooms feature a flat-screen satellite TV and en suite bathroom. Select rooms at Golden Palace Hotel Resort and Spa feature a panoramic view, sofa bed, or fully-equipped kitchen.',
+    description3: 'The property is nestled in the middle of a forest and mountain area 2,100 m above sea level. This Tsakhkadzor Golden Palace Hotel Resort and Spa also offers a ski equipment hire and free Wi-Fi.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/-3X9BAo2vF4?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/gpalace1.jpg','images/gpalace2.jpg','images/gpalace3.jpg','images/gpalace4.jpg','images/gpalace5.jpg','images/gpalace6.jpg','images/gpalace7.jpg','images/gpalace8.jpg','images/gpalace9.jpg','images/gpalace10.jpg']
+}
+var splendor={
+    name: 'Splendor Resort and Restaurant',
+    armname: 'Սփլենդոր Ծաղկաձորի Հանգստյան Տուն',
+    mainPhoto: 'images/splendor.jpg',
+    address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Vladimir Harutyunyan St., 12 Building",
+    armdesc: 'Եթե դուք ուզում եք թարմ օդ վայելել կամ ուղղակի հանգստանալ քաղաքի աղմուկից-բարի գալուստ "Սպլենդոր" հանգստյան տուն: Այս հյուրանոցում գտնվելով՝ դուք կմոռանաք ձեր առօրյա հոգսերը և կզգաք ձեզ բնության մի մասնիկ: "Սպլենդորը" գտնվում է Ծաղկաձորի բնության մի գողտրիկ անկյունում, որտեղ կարելի է վայելել լեռների և անտառների հրաշալի համայնապատկերը:',
+    description1: 'Situated in Tsaghkadzor, Splendor Resort and Restaurant offers a barbecue and sun terrace. Tsaghkadzor Lift 5 is 1.2 km from the property. Free WiFi is provided.', 
+    description2: 'The accommodation is equipped with a cable flat-screen TV. Some units also have a kitchenette, fitted with a refrigerator and stovetop. Towels are featured.',
+    description3: 'Guests can enjoy the on-site restaurant, with grocery delivery available on request.',
+    photos: ['images/splendor1.jpg','images/splendor2.jpg','images/splendor3.jpg','images/splendor4.jpg','images/splendor5.jpg','images/splendor6.jpg']
+}
+var writers={
+    name: 'Writers Creativity House In Tsaghkadzor',
+    armname: 'Գրողների Ծաղկաձորի Ստեղծագործական Տուն',
+    mainPhoto: 'images/writers.jpg',
+    address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Charentsi St. Lane, 6 Building",
+    armdesc: '«Ծաղկաձորի ստեղծագործական տուն» հյուրանոցային համալիրը Հայաստանի տուրիստական շուկայում ունի ուրույն տեղ` զբոսաշրջիկների բարձրակարգ սպասարկման, հովեկների հանգստի բովանդակալից կազմակերպման, գիտաժողովների ու սեմինար խորհրդակցությունների մասնակիցների ընդունման և համալիր ծառայությունների մատուցման բնագավառում: Հյուրանոցը բաղկացած է երեք համակցված եռահարկ կառույցներից և ռեստորանային մասնաշենքից, որոնք միացման հատվածներում ձևավորում են ընդարձակ սրահներ ու մույթեր: Ննջարանային մասնաշենքերը հյուսիսից և հարավից գոտեվորված են պատշգամբներով` բոլոր սենյակների համար ապահովվելով հարմարավետ լոջաներ:',
+    description1: 'Tsakhkadzor Writers House holiday resort is one of the top Armenian hospitality facilities offering excellent tourist service, comprehensive recreation and leisure facilities as well as premium conference and business meeting rooms.', 
+    description2: 'The resort combines three interconnected wings each consisting of three levels linked by large halls and corridors. All rooms feature convenient lounges and open balconies with a view over the nearby forest. ',
+    description3: 'The building stretches from east wing to the west wing overlooking the nearby natural forest and containing an inner garden on the southern side.',
+    photos: ['images/writers1.jpg','images/writers2.jpg','images/writers3.jpg','images/writers4.jpg','images/writers5.jpg']
+}
+
+var hotels=[royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, mimino, alpiakan, dresort, odzun, cavalier, parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, gpalace, splendor, writers];
 
 var row=$(".hotels")[0];
 
@@ -358,7 +406,8 @@ hotels.forEach(function(item, index) {
         '<a type="button" class="fh5co-project-item" data-toggle="modal" data-target="#modal-'+index+'">'+
             '<img src="'+item.mainPhoto+'" alt="Image" class="img-responsive main-img">'+
             '<div class="fh5co-text">'+
-                '<h2>'+item.name+'</h2>'+
+                '<h2 lang="en">'+item.name+'</h2>'+
+                '<h2 lang="am">'+item.armname+'</h2>'+
                 '<p>'+item.address+'</p>'+
             '</div>'+
         '</a>'+
@@ -369,23 +418,27 @@ hotels.forEach(function(item, index) {
             '<div class="modal-header">'+
                 '<button type="button" class="close" data-dismiss="modal" aria-label="Close">'+
                     '<span aria-hidden="true">&times;</span></button>'+
-                '<h4 class="modal-title" id="myModalLabel">'+item.name+'</h4>'+
+                '<h4 class="modal-title" id="myModalLabel" lang="en">'+item.name+'</h4>'+
+                '<h4 class="modal-title" id="myModalLabel" lang="am">'+item.armname+'</h4>'+
             '</div>'+
             '<div class="modal-body">'+
-                '<p>'+item.description1+'</p> \
-                <p>'+item.description2+'</p>'+
-                '<p>'+item.description3+'</p>'+
+                (item.armdesc?'<p lang="am">'+item.armdesc+'</p>':'')+
+                '<p lang="en">'+item.description1+'</p> \
+                <p lang="en">'+item.description2+'</p>'+
+                '<p lang="en">'+item.description3+'</p>'+
                 (item.videoUrl?item.videoUrl:'')+
                 '<div class="col-md-12">' + image + '</div> \
-                <p>FOR BOOKING PLEASE CALL...</p>'+
+                <p lang="en">FOR BOOKING PLEASE CALL...</p>'+
+                '<p lang="am">Տեղերն ամրագրելու համար զանգահարեք...</p>'+
                 '<p>'+
-                    '<a href="tel:+37441506041">+374 41 50 60 41</a>'+
-                    '<a href="tel:+37498803500">+374 98 80 35 00</a>'+ 							
+                    '<a href="tel:+37441506041">+374 41 50 60 41</a> </br>'+
+                    '<a href="tel:+37498803500">+374 98 80 35 00</a> </br>'+ 							
                     '<a href="tel:+37498803500">+374 94 60 34 00</a>'+
                 '</p>'+
             '</div>'+
             '<div class="modal-footer">'+
-                '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'+
+                '<button type="button" class="btn btn-default" data-dismiss="modal" lang="en">Close</button>'+
+                '<button type="button" class="btn btn-default" data-dismiss="modal" lang="am">Close</button>'+
             '</div>'+
             '</div>'+
         '</div>'+
