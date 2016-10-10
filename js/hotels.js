@@ -460,8 +460,32 @@ var aliq={
     description3: 'There is restaurant ”Sofia” in “Aliq” hotel complex, where you can organize wedding birthday and other happy parties. There are also organized seminars and current reports of the most exigent organizations.',
     photos: ['images/aliq1.jpg','images/aliq2.jpg','images/aliq3.jpg','images/aliq4.jpg','images/aliq5.jpg','images/aliq6.jpg','images/aliq7.jpg','images/aliq8.jpg','images/aliq9.jpg','images/aliq10.jpg','images/aliq11.jpg']
 }
+var hyattjermuk={
+    name: 'Hyatt Place Jermuk',
+    armname: 'Հայաթ Փլեյս Ջերմուկ',
+    mainPhoto: 'images/hyattjermuk.jpg',
+    address: "Armenia, Vayots Dzor Marz, Jermuk Shahumyan St., 7/5 Building",
+    armdesc: 'Հայաթ Փլեյս Հյուրանոցը միջազգային բարձրակարգ հյուրանոցային ապրանքանիշի պահանջներին համապատասխան կառուցված նորաբաց հյուրանոցային համալիր է: Հյուրանոցի կառուցումը սկսվել է 2009թ. ապրիլին: Հյուրանոցը բաղկացած է 92 տարբեր կարգի համարներից, SPA-կենտրոնից, ջրաբուժարանից, ռեստորանից, լողավազաններից, սպորտային դահլիճներից: Բոլոր սենյակները համալրված են անհրաժեշտ պարագաներով: Ինտերնետ կապը անվճար է հյուրանոցի ամբողջ տարածքում: Բանիմաց և փորձառու ադմինիստրատորները կապահովեն ձեր անթերի և հետաքրքիր հանգիստը այս հյուրանոցում:',
+    description1: 'Hyatt Place Jermuk features a sauna, indoor pool, fitness centre and hot tub. Free WiFi and free private parking are available on site.', 
+    description2: 'All rooms are air conditioned and offer a seating area, electric kettle, fridge and flat-screen TV. The bathrooms come with a hairdryer, bathrobes and slippers.',
+    description3: 'Guests can dine in the hotel\'s restaurant and enjoy drinks at the bar. Other facilities include a 24-hour front desk, terrace and concierge service.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/cCCyWmyVqEY?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/hyattjermuk1.jpg','images/hyattjermuk2.jpg','images/hyattjermuk3.jpg','images/hyattjermuk4.jpg','images/hyattjermuk5.jpg','images/hyattjermuk6.jpg','images/hyattjermuk7.jpg','images/hyattjermuk8.jpg','images/hyattjermuk9.jpg','images/hyattjermuk10.jpg','images/hyattjermuk11.jpg','images/hyattjermuk12.jpg','images/hyattjermuk13.jpg']
+}
+var paris={
+    name: 'Paris Hotel Yerevan',
+    armname: 'Փարիզ Հյուրանոց',
+    mainPhoto: 'images/paris.jpg',
+    address: "Armenia, 0010, Yerevan Amiryan St., 4/6 Building",
+    armdesc: '«Փարիզ» հյուրանոցը գտնվում է Երևանի կենտրոնում՝ Հանրապետության հրապարակից մի քանի քայլ հեռավորության վրա, քաղաքի սրտում: Մերձակայքում բազմաթիվ ազգային եւ էկզոտիկ ռեստորաններ, սրճարաններ, բարեր, թանգարաններ, պատկերասրահներ, համերգային սրահներ և այգիներ կան: «Փարիզ» հյուրանոցում Դուք կհյուրընկալվեք լուսավոր եւ ընդարձակ հյուրասենյակներում, որտեղ Ձեզ են սպասում քաղաքի ամենաընդարձակ մահճակալները եւ սմարթ հեռուստացույցները՝ իրենց բազմալեզու հեռուստաալիքներով: ',
+    description1: 'Offering Montmartre Restaurant-Cafe-Bar with panoramic views of the city and Mount Ararat, Paris Hotel Yerevan is located in the centre of Yerevan, 100 m from Republic Square. Free WiFi access is available.', 
+    description2: 'Each room here will provide you with a SMART TV, air conditioning and a minibar. There is also an electric kettle. Featuring a hairdryer, private bathroom also comes with free toiletries and slippers. Extras include a seating area and cable channels.',
+    description3: 'At Paris Hotel Yerevan you will find a 24-hour front desk, a terrace and a bar. Other facilities offered at the property include luggage storage. The property has 2 conference rooms.',
+    videoUrl: '',
+    photos: ['images/paris1.jpg','images/paris2.jpg','images/paris3.jpg','images/paris4.jpg','images/paris5.jpg','images/paris6.jpg','images/paris7.jpg','images/paris8.jpg']
+}
 
-var hotels=[royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, gpalace, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq];
+var hotels=[gpalace, royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, paris, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq];
 
 var row=$(".hotels")[0];
 
