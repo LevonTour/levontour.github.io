@@ -484,8 +484,32 @@ var paris={
     videoUrl: '',
     photos: ['images/paris1.jpg','images/paris2.jpg','images/paris3.jpg','images/paris4.jpg','images/paris5.jpg','images/paris6.jpg','images/paris7.jpg','images/paris8.jpg']
 }
+var cascade={
+    name: 'Cascade Hotel',
+    armname: 'Կասկադ Հյուրանոց',
+    mainPhoto: 'images/cascade.jpg',
+    address: "Armenia, 0009, Yerevan Zarobyan St., 10/10 Building",
+    armdesc: '',
+    description1: 'Located 100 m from the Cascade Complex and the Cafesjian Centre of Arts in Yerevan city, Cascade Hotel features free Wi-Fi. The Opera Theatre is 6 minutes\' walk away.', 
+    description2: 'Every room at Cascade Hotel is decorated in a classic style with air conditioning and a flat-screen TV. Bathrooms include slippers and a shower.',
+    description3: 'Armenian cuisine, as well as international dishes, are served in the restaurant, and cocktails are offered at the lounge bar.',
+    videoUrl: '',
+    photos: ['images/cascade1.jpg','images/cascade2.jpg','images/cascade3.jpg','images/cascade4.jpg','images/cascade5.jpg']
+}
+var teghenis={
+    name:'Holiday Home Teghenis',
+    armname:'Թեղենիս Հանգստյան Տուն',
+    mainPhoto:'teghenis.jpg',
+    address:'Armenia, Teghenis Resort Tsaghkadzor, 2310 Tsaghkadzor',
+    armdesc:'Թեղենիս Հանգստյան Տունը հիանալի միջավայր է ձեր հանգիստը անցկացնելու համար։',
+    description1: 'Featuring a barbecue, Holiday Home Teghenis is a semi-detached vacation home located in Tsaghkadzor. It provides free private parking.', 
+    description2: 'A dishwasher and an oven are provided in the kitchen and there is a private bathroom with bathrobes, slippers and free toiletries. A flat-screen TV is provided. Other facilities at Holiday Home Teghenis include a sauna.',
+    description3: 'You can play pool at the property, and the area is popular for skiing. Tsaghkadzor Lift 5 is 400 m from Holiday Home Teghenis, and Tsaghkadzor Lift 1 is 501 m from the property. Zvartnots International Airport is 49.9 km away.',
+    videoUrl: '',
+    photos: ['images/teghenis1.jpg','images/teghenis2.jpg','images/teghenis3.jpg','images/teghenis4.jpg','images/teghenis5.jpg','images/teghenis6.jpg','images/teghenis7.jpg','images/teghenis8.jpg']
+}
 
-var hotels=[gpalace, royaltulip, mariott, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, kechi, elegant, alpina, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, paris, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq];
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, paris, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
