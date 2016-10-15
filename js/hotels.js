@@ -359,7 +359,7 @@ var redhotel={
 }
 var gpalace={
     name: 'Golden Palace Hotel Resort & Spa GL',
-    armname: 'Գոլդեն Փելիս Հյուրանոց Ռեզորտ և Սպա Ջի Էլ',
+    armname: 'Գոլդեն Փելիս Հյուրանոց Ռեզորտ',
     mainPhoto: 'images/gpalace.jpg',
     address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Tandzaghbyuri St., 34/1 Building",
     armdesc: '“Գոլդեն Փալաս Ռեզորթ & ՍՊԱ” հյուրանոցը տարածաշրջանում պաշտոնապես ճանաչում ստացած միակ 5-աստղանի հյուրանոցն է: 120 նորաձև սենյակներ, որտեղ ժամանակին բնակվել են ազնվականներ, պատրաստ են տեղավորել Ձեզ և ապահովել Ձեր անմոռանալի հանգիստը: Թեև հյուրանոցն ինքնին արտացոլում է բազմազան ոճեր, Դուք միշտ կարող եք համոզված լինել, որ հենց առաջին իսկ պահից կգտնվեք հուսալի ձեռքերում: Բոլոր սենյակներում կա սանհանգույց, լոգասենյակ և / կամ ցնցուղ, հարթէկրան հեռուստացույց, ինտերնետային կապ, ուղիղ հեռախոսակապ և փոքր սառնարան: ',
@@ -494,12 +494,12 @@ var cascade={
     description2: 'Every room at Cascade Hotel is decorated in a classic style with air conditioning and a flat-screen TV. Bathrooms include slippers and a shower.',
     description3: 'Armenian cuisine, as well as international dishes, are served in the restaurant, and cocktails are offered at the lounge bar.',
     videoUrl: '',
-    photos: ['images/cascade1.jpg','images/cascade2.jpg','images/cascade3.jpg','images/cascade4.jpg','images/cascade5.jpg']
+    photos: ['images/cascade1.jpg','images/cascade2.jpg','images/cascade3.jpg','images/cascade4.jpg','images/cascade5.jpg','images/cascade6.jpg']
 }
 var teghenis={
     name:'Holiday Home Teghenis',
     armname:'Թեղենիս Հանգստյան Տուն',
-    mainPhoto:'teghenis.jpg',
+    mainPhoto:'images/teghenis.jpg',
     address:'Armenia, Teghenis Resort Tsaghkadzor, 2310 Tsaghkadzor',
     armdesc:'Թեղենիս Հանգստյան Տունը հիանալի միջավայր է ձեր հանգիստը անցկացնելու համար։',
     description1: 'Featuring a barbecue, Holiday Home Teghenis is a semi-detached vacation home located in Tsaghkadzor. It provides free private parking.', 
@@ -508,8 +508,56 @@ var teghenis={
     videoUrl: '',
     photos: ['images/teghenis1.jpg','images/teghenis2.jpg','images/teghenis3.jpg','images/teghenis4.jpg','images/teghenis5.jpg','images/teghenis6.jpg','images/teghenis7.jpg','images/teghenis8.jpg']
 }
+var sion={
+    name:'Sion Resort',
+    armname:'Սիոն Ռեզորթ',
+    mainPhoto:'images/sion.jpg',
+    address:'Armenia, Isahakyan 5/3, 2310 Tsaghkadzor',
+    armdesc:'',
+    description1: 'Located in Tsaghkadzor, 2.5 km from Tsaghkadzor Lift 5, Sion Resort features free WiFi access and free private parking. Guests can enjoy the on-site restaurant.', 
+    description2: 'The rooms have a flat-screen TV. Certain units include a seating area where you can relax. The rooms are fitted with a private bathroom with a bath or shower.',
+    description3: 'You will find room service at the property, as well as a barbecue. There is an indoor swimming pool where guests can relax, and a meeting room that guests can rent for business purposes.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/Cy1jk2LmSEU?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/sion1.jpg','images/sion2.jpg','images/sion3.jpg','images/sion4.jpg','images/sion5.jpg','images/sion6.jpg','images/sion7.jpg','images/sion8.jpg','images/sion9.jpg','images/sion10.jpg','images/sion11.jpg','images/sion12.jpg','images/sion13.jpg','images/sion14.jpg']
+}
+var artsvik={
+    name:'Artsvik Resort',
+    armname:'Արծվիկ Հյուրանոց',
+    mainPhoto:'images/artsvik.jpg',
+    address:'Armenia, 2310, Kotayk Marz, Tsaghkadzor Vladimir Harutyunyan St.',
+    armdesc:'«Արծվիկ» հյուրանոցը գտնվում է Ծաղկաձորում: Այն իր հյուրերին է առաջարկում տարբեր տեսակի համարներ՝ բոլոր հարմարություններով: Այստեղ դուք ձեզ կզգաք ինչպես ձեր տանը: Ծաղկաձորը հայտնի կուրորտային քաղաք է: Քաղաքում առաջարկում են համաշխարհային չափանիշներին համապատասխան ծառայություններ ` համեմատաբար մատչելի գներով: Քաղաքը այցելուներին հմայում է իր մեղմ ու առողջարար կլիմայով: Այն միշտ գրավիչ հանգստավայր է եղել տեղի և տարբեր երկրներից ժամանող հյուրերի համար: ',
+    description1: '', 
+    description2: '',
+    description3: '',
+    videoUrl: '',
+    photos: ['images/artsvik1.jpg','images/artsvik2.jpg','images/artsvik3.jpg','images/artsvik4.jpg','images/artsvik5.jpg','images/artsvik6.jpg']
+}
+var tezhler={
+    name:'Tezh Ler Resort',
+    armname:'Թեժ Լեռ Ռեզորթ',
+    mainPhoto:'images/tezhler.jpg',
+    address:'Armenia, 2038, Lori Marz, Shahumyan village Dilijan-Vanadzor Motorway 20th km',
+    armdesc:'Վերանորոգված և դիզայներական ինքնատիպ լուծումների շնորհիվ նոր տեսք ստացած հանգստյան տունն իր բազմատեսակ ծառայություններն է առաջարկում ձեզ տարվա բոլոր եղանակներին: Մեզ մոտ դուք կարող եք մատչելի գներով վայելել խաղաղ հանգիստ անմիջապես բնության գրկում, համտեսել համեղ և առողջ սնունդ, հիանալով գեղեցիկ բնապատկերներով՝ ըմբոշխնել սոճիների թարմ ու առողջարար օդը և, ոչ պակաս կարևոր է, անհրաժեշտության դեպքում հանգիստը զուգակցել աշխատանքի հետ:',
+    description1: 'This resort is located on the highest peak of the Pambak Mountain Range, 10 km from Vanadzor. Free Wi-Fi, a gym and an outdoor pool are featured at Tezh Ler Resort.', 
+    description2: 'The bright, rustic-style rooms are decorated in traditional Armenian style, with natural materials like wood, stone and bamboo. Each room includes a TV, a refrigerator and a private bathroom.',
+    description3: 'Buffet breakfast and dinner with lots of Armenian and European dishes are served in the on-site restaurant. A variety of drinks is available at the open-air bar.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/BScmKEv19O4?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/tezhler1.jpg','images/tezhler2.jpg','images/tezhler3.jpg','images/tezhler4.jpg','images/tezhler5.jpg','images/tezhler6.jpg','images/tezhler7.jpg','images/tezhler8.jpg']
+}
 
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, paris, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var nairi={
+    name:'Nairi Hotel',
+    armname:'Նաիրի Հյուրանոց',
+    mainPhoto:'images/nairi.jpg',
+    address:'Armenia, 0047, Yerevan Armenak Armenakyan St., 121/7 Building',
+    armdesc:'',
+    description1: 'Located in Nork Marash district, 5 minutes’ drive from Yerevan city centre, this hotel features free private parking and a restaurant serving Fusion cuisine. Rooms come with air-conditioning.', 
+    description2: 'Each room at Nairi Hotel includes modern design and satellite TV. Slippers and a hairdryer are provided in the bathrooms.',
+    description3: 'Drinks are offered at the on-site bar. Guests can relax in the sauna with a plunge pool. These facilities are available from 11 a.m. till 12 p.m.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/Oht4UQhvU48?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/nairi1.jpg','images/nairi2.jpg','images/nairi3.jpg','images/nairi4.jpg','images/nairi5.jpg','images/nairi6.jpg','images/nairi7.jpg']
+}
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, paris, cascade, sion, artsvik, nairi, tezhler, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
@@ -540,9 +588,9 @@ hotels.forEach(function(item, index) {
             '</div>'+
             '<div class="modal-body">'+
                 (item.armdesc?'<p lang="am">'+item.armdesc+'</p>':'')+
-                '<p lang="en">'+item.description1+'</p> \
-                <p lang="en">'+item.description2+'</p>'+
-                '<p lang="en">'+item.description3+'</p>'+
+                (item.description1?'<p lang="en">'+item.description1+'</p>':'')+
+                (item.description2?'<p lang="en">'+item.description2+'</p>':'')+
+                (item.description3?'<p lang="en">'+item.description3+'</p>':'')+
                 (item.videoUrl?item.videoUrl:'')+
                 '<div class="col-md-12">' + image + '</div> \
                 <p lang="en">FOR BOOKING PLEASE CALL...</p>'+
