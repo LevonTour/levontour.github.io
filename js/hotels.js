@@ -39,7 +39,7 @@ var aniPlaza={
 }
 var tufenkian={
     name:'Tufenkian Historic Yerevan Hotel',
-    armname: 'Թուֆենկյան Ավանդական Երևան Հյուրանոց',
+    armname: 'Թուֆենկյան Ավանդական Հյուրանոց',
     rusname: '',
     mainPhoto: 'images/tufenkian.jpg',
     address: "Armenia, 0010, Yerevan Hanrapetutyan St., 48 Building",
@@ -64,7 +64,7 @@ var multirest={
 }
 var doubletree={
     name: 'Doubletree by Hilton Yerevan City Centre',
-    armname: 'Դաբլթրի բայ Հիլթն Երևան Սիթի Սենթր',
+    armname: 'Դաբլթրի բայ Հիլթն Երևան',
     rusname: '',
     mainPhoto: 'images/doubletree.jpg',
     address: "Armenia, 0015, Yerevan Grigor Lusavorchi St., 4/2 Building",
@@ -382,7 +382,7 @@ var splendor={
 }
 var writers={
     name: 'Writers Creativity House In Tsaghkadzor',
-    armname: 'Գրողների Ծաղկաձորի Ստեղծագործական Տուն',
+    armname: 'Գրողների Ստեղծագործական Տուն',
     mainPhoto: 'images/writers.jpg',
     address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Charentsi St. Lane, 6 Building",
     armdesc: '«Ծաղկաձորի ստեղծագործական տուն» հյուրանոցային համալիրը Հայաստանի տուրիստական շուկայում ունի ուրույն տեղ` զբոսաշրջիկների բարձրակարգ սպասարկման, հովեկների հանգստի բովանդակալից կազմակերպման, գիտաժողովների ու սեմինար խորհրդակցությունների մասնակիցների ընդունման և համալիր ծառայությունների մատուցման բնագավառում: Հյուրանոցը բաղկացած է երեք համակցված եռահարկ կառույցներից և ռեստորանային մասնաշենքից, որոնք միացման հատվածներում ձևավորում են ընդարձակ սրահներ ու մույթեր: Ննջարանային մասնաշենքերը հյուսիսից և հարավից գոտեվորված են պատշգամբներով` բոլոր սենյակների համար ապահովվելով հարմարավետ լոջաներ:',
@@ -428,7 +428,7 @@ var araratjermuk={
 }
 var russiahotel={
     name: 'Hotel Russia',
-    armname: 'Ռոսիա Ծաղկաձորի Հյուրանոցային Համալիր',
+    armname: 'Ռոսիա Ծաղկաձորի Հյուրանոց',
     mainPhoto: 'images/russiahotel.jpg',
     address: "Armenia, 2310, Kotayk Marz, Tsaghkadzor Grigor Magistrosi St., 7 Building",
     armdesc: 'Հյուրանոցն առաջարկում է հանգստացողներին համարներ` սկսած դասական Single/Duble և վերջացրած 2 առանձնասենյակներ «Presidetial Luxe» -ով: Հյուրանոցի առաջին հարկը կահավորված է փափուկ կահույքով և պահանջարկ վայելող էկզոտիկ ծառերով: Հյուրանոցը ունի 2 ապակե վերելակներ, որոնցից Ձեզ համար բացվում է ընդունարանի հիանալի տեսարանը` յուրահատուկ «Նոր Ռուս» լաունջ բարով:',
@@ -618,7 +618,7 @@ var tsaghkatun={
     photos: ['images/tsaghkaun1.jpg','images/tsaghkaun2.jpg','images/tsaghkaun3.jpg','images/tsaghkaun4.jpg','images/tsaghkaun5.jpg','images/tsaghkaun6.jpg','images/tsaghkaun7.jpg','images/tsaghkaun8.jpg','images/tsaghkaun9.jpg','images/tsaghkaun10.jpg','images/tsaghkaun11.jpg','images/tsaghkaun12.jpg','images/tsaghkaun13.jpg','images/tsaghkaun14.jpg','images/tsaghkaun15.jpg','images/tsaghkaun16.jpg']
 }
 
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, cascade, sion, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
