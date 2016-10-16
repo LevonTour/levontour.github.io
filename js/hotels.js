@@ -581,8 +581,20 @@ var jermukashkhar={
     videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/Bm1Bc-jlRlU?rel=0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/jermukashkhar1.jpg','images/jermukashkhar2.jpg','images/jermukashkhar3.jpg','images/jermukashkhar4.jpg','images/jermukashkhar5.jpg','images/jermukashkhar6.jpg','images/jermukashkhar7.jpg','images/jermukashkhar8.jpg','images/jermukashkhar9.jpg','images/jermukashkhar10.jpg','images/jermukashkhar11.jpg','images/jermukashkhar12.jpg','images/jermukashkhar13.jpg','images/jermukashkhar14.jpg','images/jermukashkhar15.jpg']
 }
+var kirovakan={
+    name:'KIrovakan Hotel',
+    armname:'Կիրովական Հյուրանոց',
+    mainPhoto:'images/kirovakan.jpg',
+    address:'Armenia, Lori Marz, Vanadzor Mashtotsi St., 1 Building',
+    armdesc:'Կիրովական հյուրանոցը գտնվում է քաղաքի կենտրոնի ամենաբարձրադիր վայրում, որտեղից բացվում է հիանալի տեսարան դեպի շրջակա լեռներ, լճեր  և Վանաձոր քաղաք: Հյուրանոցի տեսադաշտում են գտնվում հանգստի գոտի հանդիսացող արհեստական լիճը  և իր բուժիչ տարրերով հռչակված <Լոռի> բնական հանքային ջրի աղբյուրը:',
+    description1: 'Kirovakan Hotel is situated in the summit of Vanadzor city offering a unique panoramic view to the surrounding mountains, lakes and the city.', 
+    description2: '',
+    description3: '',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/Dj-wHnNBmhc?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/kirovakan1.jpg','images/kirovakan2.jpg','images/kirovakan3.jpg','images/kirovakan4.jpg','images/kirovakan5.jpg','images/kirovakan6.jpg','images/kirovakan7.jpg','images/kirovakan8.jpg']
+}
 
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, cascade, sion, artsvik, nairi, tezhler, lori, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, cascade, sion, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
