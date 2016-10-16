@@ -557,7 +557,32 @@ var nairi={
     videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/Oht4UQhvU48?rel=0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/nairi1.jpg','images/nairi2.jpg','images/nairi3.jpg','images/nairi4.jpg','images/nairi5.jpg','images/nairi6.jpg','images/nairi7.jpg']
 }
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, paris, cascade, sion, artsvik, nairi, tezhler, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var lori={
+    name:'Lori Hotel',
+    armname:'Լոռի Հյուրանոց',
+    mainPhoto:'images/lori.jpg',
+    address:'Armenia, Lori Marz, Stepanavan Garegin Nzhdehi St., 11 Building',
+    armdesc:'Լոռին Հայաստանի և ողջ տարածաշրջանի էկոլոգիապես ամենամաքուր երկրամասն է, և զարմանալի ձգողական ուժով միշտ իրեն է ձգում նույնիսկ ամենաքմահաճ մարդուն: Լոռվա ամենագեղատեսիլ վայրերից մեկի՝ Ստեփանավանի սրտում է գտնվում «ԼՈՌԻ» հյուրանոցը, որը հանդիսանում է յուրօրինակ ու դրական ազդեցություն ունեցող հանգստի վայր իր բոլոր հանգստացողների համար: Հյուրանոցը գտնվում է Երևանից 135 կմ հեռավորության վրա, Ստեփանավան քաղաքի կենտրոնում: «ԼՈՌԻ» հյուրանոցը ունի բարձրակարգ, հարմարավետ կահավորված սենյակներ, ազգային ճաշատեսակներով հարուստ խոհանոց, խորհրդակցությունների դահլիճ, բիլիարդի ու սեղանի թենիսի սրահներ և հարմարավետ բացօթյա սրճարան:',
+    description1: 'Stepanavan is situated in 157 km from Yerevan . . . Hotel Lori has comfortably furnished rooms of a high class, a kitchen rich in national dishes, a conference hall where you can both work and have rest. Visiting hotel Lori you will be delighted with the high class service and by the best conditions offered by it. Next to the hotel there is the square, the museum-hous after Stepan Shahumian and the park.', 
+    description2: '',
+    description3: '',
+    videoUrl: '',
+    photos: ['images/lori1.jpg','images/lori2.jpg','images/lori3.jpg','images/lori4.jpg','images/lori5.jpg','images/lori6.jpg','images/lori7.jpg']
+}
+var jermukashkhar={
+    name:'Jermuk Ashkhar',
+    armname:'Ջերմուկ Աշխարհ',
+    mainPhoto:'images/jermukashkhar.jpg',
+    address:'Armenia, 3701, Vayots Dzor Marz, Jermuk Shahumyan St., 20 Building',
+    armdesc:'«Ջերմուկ Աշխարհ» առողջարանային համալիրը կառուցվել է 1976 թվականին: Երկար տարիների աշխատանքային փորձն ու արհեստավարժ աշխատակազմը Ձեր բուժման ու հանգստի լիարժեք կազմակերպման երաշխիքն են:',
+    description1: 'Offering an indoor pool, a spa and wellness centre, Jermuk Ashkhar Sanatorium is located in Jermuk, a 15-minute walk from Arpa River. Free WiFi access is available in this resort.', 
+    description2: 'The accommodation will provide you with a TV and a balcony. You can enjoy mountain view from the room.',
+    description3: 'At Jermuk Ashkhar Sanatorium you will find a restaurant and a fitness centre.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/Bm1Bc-jlRlU?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/jermukashkhar1.jpg','images/jermukashkhar2.jpg','images/jermukashkhar3.jpg','images/jermukashkhar4.jpg','images/jermukashkhar5.jpg','images/jermukashkhar6.jpg','images/jermukashkhar7.jpg','images/jermukashkhar8.jpg','images/jermukashkhar9.jpg','images/jermukashkhar10.jpg','images/jermukashkhar11.jpg','images/jermukashkhar12.jpg','images/jermukashkhar13.jpg','images/jermukashkhar14.jpg','images/jermukashkhar15.jpg']
+}
+
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, cascade, sion, artsvik, nairi, tezhler, lori, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
