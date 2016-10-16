@@ -605,8 +605,20 @@ var aniresort={
     videoUrl: '',
     photos: ['images/aniresort1.jpg','images/aniresort2.jpg','images/aniresort3.jpg','images/aniresort4.jpg','images/aniresort5.jpg','images/aniresort6.jpg','images/aniresort7.jpg','images/aniresort8.jpg','images/aniresort9.jpg','images/aniresort10.jpg','images/aniresort11.jpg']
 }
+var tsaghkaun={
+    name:'Tsaghkatun',
+    armname:'Ծաղկատուն',
+    mainPhoto:'images/tsaghkaun.jpg',
+    address:'Armenia, 2310, Kotayk Marz, Tsaghkadzor Vladimir Harutyunyan St., 8 Building',
+    armdesc:'«Ծաղկատուն» հյուրանոցը գտնվում է Ծաղկաձոր քաղաքի հենց կենտրոնում: Այստեղ դուք կարող եք և հանգստանալ եւ կազմակերպել գործարար հանդիպումներ ձեր գործընկերների հետ: Հյուրանոցն ունի լիարժեք հանգստի համար անհրաժեշտ բոլոր պայմանները: Հյուրանոցի հիմնական առանձնահատկություններից մեկը բացառիկ ինտերիերի եւ VIP սենյակների առկայությունն է, որոնք ստեղծում հաճելի մթնոլորտ: Հատուկ ուշադրություն է դարձվում բնակության անվտանգությանը. հյուրանոցը հագեցած է ժամանակակից հակահրդեհային և վիդեո դիտարկման եւ վերահսկողության համակարգերով, որը հասանելի է ամբողջ տարածքում:',
+    description1: 'Located in Tsaghkadzor, Armenian Valley of Flowers, Tsaghkatun boutique hotel is 500 m from the ski lift. The hotel offers free Wi-Fi, karaoke and BBQ facilities.', 
+    description2: 'Modern style rooms and suites are equipped with extra-large beds, flat-screen TV, hairdryer and furnished with a work desk. Some suites also have a spa bath.',
+    description3: 'The hotel has a bar and restaurant as well as a business centre. Reception is open 24 hours a day. Laundry service is available.',
+    videoUrl: '',
+    photos: ['images/tsaghkaun1.jpg','images/tsaghkaun2.jpg','images/tsaghkaun3.jpg','images/tsaghkaun4.jpg','images/tsaghkaun5.jpg','images/tsaghkaun6.jpg','images/tsaghkaun7.jpg','images/tsaghkaun8.jpg','images/tsaghkaun9.jpg','images/tsaghkaun10.jpg','images/tsaghkaun11.jpg','images/tsaghkaun12.jpg','images/tsaghkaun13.jpg','images/tsaghkaun14.jpg','images/tsaghkaun15.jpg','images/tsaghkaun16.jpg']
+}
 
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, cascade, sion, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, cascade, sion, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
