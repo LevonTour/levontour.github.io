@@ -593,8 +593,20 @@ var kirovakan={
     videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/Dj-wHnNBmhc?rel=0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/kirovakan1.jpg','images/kirovakan2.jpg','images/kirovakan3.jpg','images/kirovakan4.jpg','images/kirovakan5.jpg','images/kirovakan6.jpg','images/kirovakan7.jpg','images/kirovakan8.jpg']
 }
+var aniresort={
+    name:'Ani Resort',
+    armname:'Անի Ռեզորթ',
+    mainPhoto:'images/aniresort.jpg',
+    address:'Armenia, 2312, Kotayk Marz, Artavaz village 1st St.',
+    armdesc:'՞Անի Աճեմյան ռեսորթ՞ հանգստյան տունն ունի 38 հարմարավետ 2-ից 4 տեղանոց համարներ և 3-ից 6 տեղանոց առանձնատներ (քոթեջ): Բոլոր համարները համալրված են հանգստին ծառայող բոլոր հարմարություններով: Հանգստյան տան բոլոր համարներից բացվում է չնաշխարհիկ տեսարան, որոնք իրենց հերթին օգնում են ուժերի արագ վերականգնմանը և օրգանիզմի կազդուրմանը: “Անի Աճեմյան ռեզորթ” հանգստյան տունը գտնվում է Երևանից 69 կմ և Հրազդանից 24 կմ հեռավորության վրա` դեպի հյուսիս-արևմուտք՝ Կոտայքի մարզի Արտավազ գյուղի (բալնեոկլիմայական առողջավայր) հարևանությամբ, ծովի մակարդակից 1995 մ բարձրության վրա։ Հանգստյան տունը շրջապատված է լեռներով, որոնց լանջերը ծածկված են անտառներով և թփուտներով։ Կլիման մեղմ է, ամառը՝ բավականին զով (հուլիս-օգոստոսի միջին ջերմաստիճանը՝ 16°-18°C), ձմեռը՝ չափավոր ցուրտ (հունվարի միջին ջերմաստիճանը՝ -7°C), արևափայլքի տևողությունը՝ տարեկան 2200 ժ, տեղումները՝ 660 մմ։ Բուժիչ հիմնական միջոցն է լեռնային կլիման , որն առողջարար է և հանգստի համար օգտակար:',
+    description1: 'Offering an indoor pool and a restaurant, Ani Resort Hotel & Holiday Homes in Artavaz Village, is surrounded by greenery. It features accommodation with wired internet and mountain views. Facilities include a fitness centre and WiFi in public areas.', 
+    description2: '',
+    description3: '',
+    videoUrl: '',
+    photos: ['images/aniresort1.jpg','images/aniresort2.jpg','images/aniresort3.jpg','images/aniresort4.jpg','images/aniresort5.jpg','images/aniresort6.jpg','images/aniresort7.jpg','images/aniresort8.jpg','images/aniresort9.jpg','images/aniresort10.jpg','images/aniresort11.jpg']
+}
 
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, cascade, sion, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, cascade, sion, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
