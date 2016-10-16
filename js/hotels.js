@@ -605,7 +605,7 @@ var aniresort={
     videoUrl: '',
     photos: ['images/aniresort1.jpg','images/aniresort2.jpg','images/aniresort3.jpg','images/aniresort4.jpg','images/aniresort5.jpg','images/aniresort6.jpg','images/aniresort7.jpg','images/aniresort8.jpg','images/aniresort9.jpg','images/aniresort10.jpg','images/aniresort11.jpg']
 }
-var tsaghkaun={
+var tsaghkatun={
     name:'Tsaghkatun',
     armname:'Ծաղկատուն',
     mainPhoto:'images/tsaghkaun.jpg',
