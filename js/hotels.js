@@ -608,7 +608,7 @@ var aniresort={
 var tsaghkatun={
     name:'Tsaghkatun',
     armname:'Ծաղկատուն',
-    mainPhoto:'images/tsaghkaun.jpg',
+    mainPhoto:'images/tsaghkatun.jpg',
     address:'Armenia, 2310, Kotayk Marz, Tsaghkadzor Vladimir Harutyunyan St., 8 Building',
     armdesc:'«Ծաղկատուն» հյուրանոցը գտնվում է Ծաղկաձոր քաղաքի հենց կենտրոնում: Այստեղ դուք կարող եք և հանգստանալ եւ կազմակերպել գործարար հանդիպումներ ձեր գործընկերների հետ: Հյուրանոցն ունի լիարժեք հանգստի համար անհրաժեշտ բոլոր պայմանները: Հյուրանոցի հիմնական առանձնահատկություններից մեկը բացառիկ ինտերիերի եւ VIP սենյակների առկայությունն է, որոնք ստեղծում հաճելի մթնոլորտ: Հատուկ ուշադրություն է դարձվում բնակության անվտանգությանը. հյուրանոցը հագեցած է ժամանակակից հակահրդեհային և վիդեո դիտարկման եւ վերահսկողության համակարգերով, որը հասանելի է ամբողջ տարածքում:',
     description1: 'Located in Tsaghkadzor, Armenian Valley of Flowers, Tsaghkatun boutique hotel is 500 m from the ski lift. The hotel offers free Wi-Fi, karaoke and BBQ facilities.', 
