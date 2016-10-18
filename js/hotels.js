@@ -624,13 +624,22 @@ var eleonora={
     address:'Armenia, 2320, Kotayk Marz, Hankavan village',
     armdesc:'Հանքավանի մի գողտրիկ անկյունում, հոգնեցնող աղմուկից հեռու, գտնվում է մի հարմարավետ և գեղեցիկ կառույց, որն է Էլեոնորա հանգստյան տունը: Հանգստյան տունը տարիներ շարունակ ընդունել է հարյուրավոր հյուրերի և դարձել բոլորի կողմից սիրված վայր: Արդեն ամբողջությամբ վերանորոգված և գեղեցիկ կահավորված, Էլեոնորան սպասում է իր հյուրերին: Ստեղծված են բոլոր պայմանները Ձեր հանգիստն առավելագույնս լավ կազմակերպելու համար:',
     description1: 'Our friendly staff waits for serving you at our resort. You will find beautiful nature, clean air, comfortable rooms and lodges, eco-friendly food and high quality service, and even more. Eleonora Resort is located in a quiet and cozy part of Hankavan far away from the urban noise. Today our renovated and refurnished resort provides all the conditions for a comfortable holiday and waits for its customers.', 
-    description2: '',
-    description3: '',
-    videoUrl: '',
     photos: ['images/eleonora1.jpg','images/eleonora2.jpg','images/eleonora3.jpg','images/eleonora4.jpg','images/eleonora5.jpg','images/eleonora6.jpg','images/eleonora7.jpg','images/eleonora8.jpg','images/eleonora9.jpg','images/eleonora10.jpg']
 }
+var olympia={
+    name:'Jermuk Olympia Sanatorium',
+    armname:'Օլիմպիա առողջարան',
+    mainPhoto:'images/olympia.jpg',
+    address:'Armenia, 3701, Vayots Dzor Marz, Jermuk Shahumyan St., 16 Building',
+    armdesc:'Օլիմպիա առողջարանը գտնվում է Հայաստանի հարավ-արևելքում, առողջարանային Ջերմուկ քաղաքում, որն ավելի, քան 50 տարի հանդիսանում է միջազգային կարգի առողջարանային կենտրոն: Առողջարանը կառուցվել է 1953 թվականին, հիմնովին վերանորոգվել 2006-ին և մինչ օրս շարունակում է աշխատել, անընդհատ զարգացնելով և կատարելագործելով իր ջրաբուժական ավանդույթները:',
+    description1: 'Featuring a spa and wellness centre with a number of health related treatments available, Jermuk Olympia Sanatorium in Jermuk offers guests an on-site restaurant, a beauty shop, massage services, and free Wi-Fi.', 
+    description2: 'Rooms here offer a refrigerator, a flat-screen TV with satellite channels, and a private bathroom.',
+    description3: 'Other property facilities include bicycle rentals, a games room, a library, a shared kitchen, a bar, a breakfast buffet, billiards, laundry services, meeting and banquet facilities, and a shuttle service.',
+    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/kJl-2aCYmzg?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/olympia1.jpg','images/olympia2.jpg','images/olympia3.jpg','images/olympia4.jpg','images/olympia4.jpg','images/olympia6.jpg','images/olympia7.jpg','images/olympia8.jpg','images/olympia9.jpg','images/olympia10.jpg','images/olympi11.jpg','images/olympia12.jpg','images/olympia13.jpg']
+}
 
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, eleonora, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, eleonora, olympia, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
