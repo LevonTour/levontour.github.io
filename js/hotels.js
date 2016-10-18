@@ -635,8 +635,19 @@ var olympia={
     description1: 'Featuring a spa and wellness centre with a number of health related treatments available, Jermuk Olympia Sanatorium in Jermuk offers guests an on-site restaurant, a beauty shop, massage services, and free Wi-Fi.', 
     description2: 'Rooms here offer a refrigerator, a flat-screen TV with satellite channels, and a private bathroom.',
     description3: 'Other property facilities include bicycle rentals, a games room, a library, a shared kitchen, a bar, a breakfast buffet, billiards, laundry services, meeting and banquet facilities, and a shuttle service.',
-    videoUrl: '<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/kJl-2aCYmzg?rel=0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/olympia1.jpg','images/olympia2.jpg','images/olympia3.jpg','images/olympia4.jpg','images/olympia4.jpg','images/olympia6.jpg','images/olympia7.jpg','images/olympia8.jpg','images/olympia9.jpg','images/olympia10.jpg','images/olympi11.jpg','images/olympia12.jpg','images/olympia13.jpg']
+}
+var alva={
+    name:'Best Western Alva Hotel & Spa',
+    armname:'Հյուրանոց Ալվա',
+    mainPhoto:'images/alva.jpg',
+    address:'40 Tandzaghbyur Str., city Tsaghkadzor, Armenia ',
+    armdesc:'Թեղենիս լեռան արևելյան լանջին, անմիջապես ճոպանուղու հարևանությամբ, 2000մ ծովի մակերևույթից բարձր, գեղատեսիլ բնության գրկում Ձեզ է սպասում ԱԼՎԱ հյուրանոցը:',
+    description1: 'Being situated on the east slope of Teghenis, immediately next to the ropeway, at 2000 meters above sea level, in a picturesque place, Alva hotel welcomes you. Our hotel is the nearest one to the ropeway and to the ski resort.', 
+    description2: '',
+    description3: '',
+    videoUrl:'<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/IIqns8d4mkI?rel=0" frameborder="0" allowfullscreen></iframe>',
+    photos: ['images/alva1.jpg','images/alva2.jpg','images/alva3.jpg','images/alva4.jpg','images/alva5.jpg','images/alva6.jpg','images/alva7.jpg','images/alva8.jpg','images/alva9.jpg','images/alva10.jpg']
 }
 
 var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, eleonora, olympia, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
