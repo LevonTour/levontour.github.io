@@ -661,6 +661,18 @@ var hayq={
     videoUrl:'',
     photos: ['images/hayq1.jpg','images/hayq2.jpg','images/hayq3.jpg','images/hayq4.jpg']
 }
+var jupiter={
+    name:'Jupiter Hotel',
+    armname:'Յուպիտեր',
+    mainPhoto:'images/jupiter.jpg',
+    address:'Armenia, 2310, Kotayk Marz, Tsaghkadzor Tsaghkunyats Sq., 1 Building',
+    armdesc:'«Յուպիտեր» հյուրանոցը գտնվում է Ծաղկաձոր առողջարանային քաղաքի անմիջապես կենտրոնում: Այն գտնվում է գլխավոր հրապարակի տարածքում և ամբողջ տարվա ընթացքում բաց է Ձեզ համար օրվա բոլոր ժամերին: Հյուրանոցն իր անվանումը ստացել է հին հռոմեական Յուպիտեր աստծո պատվին, որը հին հունական Զևս աստծո նմանօրինակն է:  Հյուրանոցը բավարարում է բարձրակարգ եվրոպական հարմարավետության և սպասարկման բոլոր պահանջները:',
+    description1: 'On the main square in Tsaghkadzor city centre, this hotel features a sauna, and soundproofed rooms with balconies overlooking the countryside. A free ski shuttle and free parking are available.', 
+    description2: 'A flat-screen TV with satellite channels is provided in every room at the Jupiter Hotel. Each room has a different design. Bathroom comforts include bathrobes, slippers and toiletries.',
+    description3: 'Guests can enjoy a breakfast buffet in the rustic-style breakfast room. There is also a colourful bar and a games room with billiards and table tennis.',
+    videoUrl:'',
+    photos: ['images/jupiter1.jpg','images/jupiter2.jpg','images/jupiter3.jpg','images/jupiter4.jpg','images/jupiter5.jpg','images/jupiter6.jpg','images/jupiter7.jpg','images/jupiter8.jpg','images/jupiter9.jpg','images/jupiter10.jpg']
+}
 
 var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, eleonora, olympia, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
