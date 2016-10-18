@@ -674,7 +674,7 @@ var jupiter={
     photos: ['images/jupiter1.jpg','images/jupiter2.jpg','images/jupiter3.jpg','images/jupiter4.jpg','images/jupiter5.jpg','images/jupiter6.jpg','images/jupiter7.jpg','images/jupiter8.jpg','images/jupiter9.jpg','images/jupiter10.jpg']
 }
 
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, eleonora, olympia, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, jupiter, tsaghkatun, alpina, teghenis, bwaghveran, alpiakan, arthurs, mimino, cavalier, dresort, parkresort, arzniresort, crystal, yeghevnut, zanger, goris, magnit, haghartsin, diligence, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, eleonora, olympia, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi, hayq];
 
 var row=$(".hotels")[0];
 
