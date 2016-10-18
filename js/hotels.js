@@ -617,8 +617,20 @@ var tsaghkatun={
     videoUrl: '',
     photos: ['images/tsaghkaun1.jpg','images/tsaghkaun2.jpg','images/tsaghkaun3.jpg','images/tsaghkaun4.jpg','images/tsaghkaun5.jpg','images/tsaghkaun6.jpg','images/tsaghkaun7.jpg','images/tsaghkaun8.jpg','images/tsaghkaun9.jpg','images/tsaghkaun10.jpg','images/tsaghkaun11.jpg','images/tsaghkaun12.jpg','images/tsaghkaun13.jpg','images/tsaghkaun14.jpg','images/tsaghkaun15.jpg','images/tsaghkaun16.jpg']
 }
+var eleonora={
+    name:'Eleonora Resort',
+    armname:'Էլեոնորա Հանգստյան Տուն',
+    mainPhoto:'images/eleonora.jpg',
+    address:'Armenia, 2320, Kotayk Marz, Hankavan village',
+    armdesc:'Հանքավանի մի գողտրիկ անկյունում, հոգնեցնող աղմուկից հեռու, գտնվում է մի հարմարավետ և գեղեցիկ կառույց, որն է Էլեոնորա հանգստյան տունը: Հանգստյան տունը տարիներ շարունակ ընդունել է հարյուրավոր հյուրերի և դարձել բոլորի կողմից սիրված վայր: Արդեն ամբողջությամբ վերանորոգված և գեղեցիկ կահավորված, Էլեոնորան սպասում է իր հյուրերին: Ստեղծված են բոլոր պայմանները Ձեր հանգիստն առավելագույնս լավ կազմակերպելու համար:',
+    description1: 'Our friendly staff waits for serving you at our resort. You will find beautiful nature, clean air, comfortable rooms and lodges, eco-friendly food and high quality service, and even more. Eleonora Resort is located in a quiet and cozy part of Hankavan far away from the urban noise. Today our renovated and refurnished resort provides all the conditions for a comfortable holiday and waits for its customers.', 
+    description2: '',
+    description3: '',
+    videoUrl: '',
+    photos: ['images/eleonora1.jpg','images/eleonora2.jpg','images/eleonora3.jpg','images/eleonora4.jpg','images/eleonora5.jpg','images/eleonora6.jpg','images/eleonora7.jpg','images/eleonora8.jpg','images/eleonora9.jpg','images/eleonora10.jpg']
+}
 
-var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
+var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, eleonora, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
 var row=$(".hotels")[0];
 
