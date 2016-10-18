@@ -649,6 +649,18 @@ var alva={
     videoUrl:'<iframe class="col-md-12" height="315" src="https://www.youtube.com/embed/IIqns8d4mkI?rel=0" frameborder="0" allowfullscreen></iframe>',
     photos: ['images/alva1.jpg','images/alva2.jpg','images/alva3.jpg','images/alva4.jpg','images/alva5.jpg','images/alva6.jpg','images/alva7.jpg','images/alva8.jpg','images/alva9.jpg','images/alva10.jpg']
 }
+var hayq={
+    name:'Hayq Hotel',
+    armname:'Հայք',
+    mainPhoto:'images/hayq.jpg',
+    address:'Armenia, Tavush Marz, Dilijan Golovino District, Kamoi St., 137 Building',
+    armdesc:'',
+    description1: 'Featuring free WiFi throughout the property, Hotel Hayq Armenia Dilijan offers pet-friendly accommodations in Dilijan.', 
+    description2: 'There is a 24-hour front desk, room service, a tour desk and a shops at the property.',
+    description3: 'You can play ping-pong at this guesthouse, and bike rental is available. ',
+    videoUrl:'',
+    photos: ['images/hayq1.jpg','images/hayq2.jpg','images/hayq3.jpg','images/hayq4.jpg']
+}
 
 var hotels=[gpalace, mariott, royaltulip, aniPlaza, tufenkian, multirest, doubletree, tsmariott, alexandrapol, elegant, aniresort, tsaghkatun, alpina, teghenis, bwaghveran, arthurs, alpiakan, mimino, dresort, cavalier,parkresort, crystal, arzniresort, yeghevnut, zanger, goris, magnit, diligence, haghartsin, gosh, bwparadise, impuls, dghyak, redhotel, hyattjermuk, jermukashkhar, paris, sion, cascade, artsvik, nairi, tezhler, lori, eleonora, olympia, kirovakan, splendor, writers, sportcomplex, bluesevan, araratjermuk, russiahotel, kecharis, aliq, kechi];
 
